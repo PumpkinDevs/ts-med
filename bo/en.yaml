@@ -1,0 +1,567 @@
+route:
+  home: Home
+  operate: Operation Records
+  report: Data Reports
+  CMS: CMS
+  permission: Permission Management
+  account: Account Management
+  agency: Agency Management
+  training: Training List
+  course: Course Management
+  courseList: Course List
+  courseEdit: Edit Course
+  coursePatient: Patient Data
+  courseObject: Object Data
+  update: Update Information
+  profile: Account Profile
+  score: Scorecard
+
+adminOptions: "Admin Mode"
+
+dashboard:
+  title: "Release Version Notification"
+  version: "Version Number"
+  link: "Download Link"
+  note: "Updates and Fixes"
+
+operate:
+  message: "Message"
+  status: "Status"
+  time: "Time"
+
+username: "Username"
+status: "Status"
+message: "Message"
+datetime: "Datetime"
+action: "Action"
+upload: "Upload File"
+download: "Download File"
+forgetPassword: "Forgot Password"
+password: "Password"
+processing: "Processing..."
+empty: "Not set yet"
+
+form:
+  required: "Required field"
+  file: "File is required"
+  password: "Please enter a password"
+  email: "Email cannot be empty"
+  validEmail: "Please enter a valid email"
+  role: "Please select a role"
+
+permission:
+  name: "Role Name"
+  description: "Role Description"
+  rules: "Permissions"
+  action: "Action"
+  newRole: "New Role"
+  roleTitle:
+    accounts: "Account Management"
+    scores: "Score Management"
+    roles: "Permission Management"
+    teams: "Agency Management"
+    history: "Training List"
+    course: "Course Management"
+    cms: "Edit CMS"
+
+buttons:
+  logOut: "Log Out"
+  login: "Log In"
+  register: "Register"
+  add: "Add"
+  mark: "Mark/Unmark"
+  cancel: "Cancel"
+  save: "Save"
+  confirm: "Confirm"
+  delete: "Delete"
+  edit: "Edit"
+  selectAll: "Select All"
+  unSelectAll: "Unselect All"
+  newUser: "New User"
+  update: "Update"
+  reLogin: "Re-login"
+
+cms:
+  editTitle: "Edit Content"
+  newTitle: "New Content"
+  name: "Product Name"
+  description: "Product Description"
+  type: "Product Type"
+  file: "Product File"
+  image: "Preview Image"
+  emptyHint: "CMS is not enabled for the agency, please contact the administrator."
+
+datePicker:
+  to: "To"
+  start: "Start Date"
+
+settings:
+  style: "Page Style Settings"
+  color: "Theme Color"
+  fixedHeader: "Fixed Header"
+
+resetPassword:
+  title: "Reset Password"
+  email: "Email"
+  description: "Enter your email below, and you will receive an email with a password reset link."
+  success: "A password reset link has been sent to your email (if it exists in our system)."
+  newPassword: "New Password"
+  confirmPassword: "Confirm Password"
+  resetOKHint: "Password reset successful. Please log in using your new password."
+
+login:
+  tooltip: "Caps Lock is On"
+
+register:
+  title: "Register Account"
+  message: "After successful registration, a password will be sent to the email you provided."
+  agencyName: "Agency Name"
+  username: "Name"
+  email: "Email"
+  sector: "Unit Name"
+  role: "Role"
+
+tooltip:
+  capsTooltip: "Caps Lock is On"
+  fileMaxLimit: "File is too large. Maximum limit"
+  toPNG: "System supports converting to PNG format"
+  wavOnly: "Only .wav files are supported for upload"
+  maxPhone: "Maximum 10 phone numbers"
+
+valid:
+  password: "Please enter a password"
+  checkPassword: "Passwords do not match"
+
+messageBox:
+  resetPassword: "The password reset link has expired. Please reapply."
+  logout:
+    title: "Confirm Logout"
+    message: "You have been logged out. You can cancel to stay on this page or log in again."
+errorCode:
+  50000: "Service is busy, please try again later."
+
+confirm:
+  remove: "Are you sure you want to delete?"
+  status: "Are you sure you want to change the status?"
+
+apiSuccess: "Operation successful"
+
+fileLimit: "File Limit"
+preview: "Preview"
+
+account:
+  username: "Username"
+  email: "Account/Email"
+  sector: "Department"
+  role: "Role"
+  action: "Action"
+  newUser: "New User"
+  editUser: "Edit User"
+  deleteUser: "Delete User"
+  agency_name: "Agency Name"
+
+agency:
+  name: "Agency Name"
+  status: "Agency Status"
+  register: "Open Registration"
+  action: "Action"
+  newUser: "New User"
+  new: "New Agency"
+  username: "Username"
+  password: "Password"
+  sector: "Department"
+  role: "Role"
+
+switch:
+  on: "On"
+  off: "Off"
+
+profile:
+  title: "Account Profile"
+  agency: "Agency Name"
+  sector: "Unit Name"
+  role: "Role"
+  username: "Name"
+  newPassword: "New Password"
+  confirmPassword: "Confirm Password"
+
+course:
+  name: "Course Name"
+  description: "Description"
+  creator: "Creator"
+  createdAt: "Creation"
+  updatedAt: "Modification"
+  action: "Action"
+  duplicate: "Duplicate"
+  duplicateMessage: "Confirm whether to duplicate. This operation may take some time."
+  type: "Course Type"
+  px: "Patient Background"
+  nr: "Nursing Record"
+  type_1: "Emergency"
+  type_2: "Outpatient"
+  type_3: "Inpatient"
+  title:
+    basic: "Basic Information"
+    patient: "Patient Data"
+    object: "Object Data"
+
+  resolutionRequirements: "Resolution Requirements"
+  fullPreview: "Full Image Preview"
+  partName: "Part Name"
+  parts: "Parts"
+  status: "Status Naming"
+  file: "File"
+  preview: "Preview"
+
+parts:
+  part: "part"
+  head: "head"
+  chest: "chest"
+  abdomen: "abdomen"
+  pelvis: "pelvis"
+  lowerLimbs: "lowerLimbs"
+  laryngoscope: "laryngoscope"
+  CompleteEKG: "CompleteEKG"
+  SONO_1: "Left Lung"
+  SONO_2: "Right Lung"
+  SONO_3: "LUQ"
+  SONO_4: "RUQ"
+  SONO_5: "Pelvis"
+  SONO_6: "Cardiac"
+  SONO_7: "Left Neck"
+  SONO_8: "Right Neck"
+
+patient:
+  sounds:
+    title: "Auscultation"
+    type:
+      heart: "Heart Sounds"
+      lung: "Lung Sounds"
+      bowel: "Bowel Sounds"
+      percussion: "Percussion"
+  bodyImages:
+    title: "Body Images"
+  bodyType:
+    1: "Head"
+    2: "Upper Body"
+    3: "Lower Body"
+    4: "Back"
+  palpation:
+    title: "Palpation"
+    type:
+      chest: "Chest"
+      pelvis: "Pelvis"
+      spine: "Spine"
+      anal: "Anus"
+    reaction:
+      title: "Reaction Settings"
+      type:
+        hand: "Reaction when gripping patient's hand"
+        toe: "Reaction when stimulating toe with cotton swab"
+        feet: "Reaction when gripping patient's feet"
+        solePlate: "Reaction when stimulating sole with cotton swab"
+    edema:
+      title: "Edema Settings"
+      type:
+        1: "Left Lower Limb"
+        2: "Right Lower Limb"
+        3: "Bilateral"
+        4: "None"
+  face:
+    title: "Face"
+    eye:
+      name: "Eyes"
+      close: "Closed"
+      half: "Half-open"
+      open: "Open"
+    wink: "Number of Eye Blinks (per minute)"
+    sclera: "Sclera Color"
+    faceColor: "Face Color"
+    color:
+      white: "White"
+      yellow: "Yellow"
+      black: "Black"
+      normal: "Normal"
+    pupil:
+      title: "Pupil Settings"
+      light: "Light Reaction"
+      reaction: "Reaction Speed"
+      size: "Pupil Size"
+      left: "Left Pupil"
+      right: "Right Pupil"
+      no: "No"
+      yes: "Yes"
+      slow: "Slow"
+      quick: "Quick"
+      normal: "Normal"
+      needel: "Needle-shaped"
+      zoomIn: "Zoom In"
+
+  physical:
+    title: "Physiological Signs"
+    settings: "Initial Settings"
+    name: "Parameter Name"
+    value: "Initial Value"
+    target: "Target Value/Interval Time (s)"
+    heartbeat: "Heart Rate"
+    SPO2: "SPO2"
+    SBP: "Systolic Blood Pressure"
+    DBP: "Diastolic Blood Pressure"
+    BR: "Respiratory Rate"
+    BT: "Body Temperature"
+    BO: "Blood Oxygen"
+    waveform: "Heart Rhythm Waveform"
+    waveformType:
+      1: "Normal"
+      2: "VF"
+      3: "VT"
+      4: "Asystole"
+      5: "Sinus Rhythm Post Ischemia"
+      6: "Sinus Rhythm with Ischemia"
+      7: "Sinus Rhythm"
+      8: "Sinus with Anterior AMI, ST elevation"
+      9: "Sinus with Inferior AMI, ST elevation"
+      10: "Standstill"
+    NG:
+      title: "NG Drainage Results"
+      description: "NG Tube Color and Characteristics"
+    urine:
+      title: "Urine"
+      description: "Urine Drainage Tube Color and Characteristics"
+
+  image:
+    title: "Image Data"
+    type:
+      1: "XRAY"
+      2: "CT"
+      3: "SONO"
+      4: "Laryngoscope"
+      5: "CompleteEKG"
+  data:
+    title: "Laboratory Data"
+    create: "Create Laboratory Data"
+    update: "Edit Laboratory Data"
+    remove: "Delete Data"
+    category: "Test Category"
+    name: "Test Item"
+    value: "Value"
+    rv: "Reference Value"
+    unit: "Unit"
+    categoryType:
+      0: "CBC/DC"
+      1: "Coagulation"
+      2: "Blood Type"
+      3: "Blood Gas - Arterial"
+      4: "Blood Gas - Venous"
+      5: "Biochemistry"
+      6: "Electrolyte"
+      7: "Drug Screening"
+      8: "Urinalysis"
+      9: "Stool Examination"
+      10: "Bacterial Culture"
+      11: "PCR Test"
+  others:
+    title: "Others"
+    ofb: "Foreign Body in Oral Cavity"
+    pulse: "Pulse Settings"
+    instant: "Real-time Information"
+    status: "Status"
+    type: "Type"
+    parts: "Body Parts"
+    description: "Custom Description"
+    message: "Instant Audio"
+    file: "File"
+    action: "Action"
+    preview: "Preview"
+    image: "Real-time Image"
+    no: "No"
+    yes: "Yes"
+    strong: "Strong"
+    weak: "Weak"
+
+  head: "Head"
+  chest: "Chest"
+  abdomen: "Abdomen"
+  pelvis: "Pelvis"
+  lowerLimbs: "Lower Limbs"
+  laryngoscope: "Laryngoscope"
+
+objects:
+  phone:
+    title: "Phone Extension"
+    ext: "Extension Number"
+    uploadDrag: "Drag and drop file here or"
+    uploadClick: "Click here to upload"
+
+  items:
+    title: "Object Data"
+    btnNew: "New Object"
+    btnQuick: "Quick Create"
+
+    name: "Object Name"
+    location: "Object Location"
+    change: "Change"
+    during: "During"
+    update: "Update Items"
+    create: "Create Items"
+
+    data:
+      1: "BVM Mask"
+      2: "Tourniquet"
+      3: "Nasopharyngeal Airway (NPA)"
+      4: "Oropharyngeal Airway (OPA)"
+      5: "Tongue Depressor"
+      6: "Nasal Cannula"
+      7: "Oxygen Mask"
+      8: "Non-Rebreather Mask"
+      9: "Endotracheal Tube"
+      10: "Laryngeal Mask Airway (LMA)"
+      11: "Laryngeal Mask Airway (iGel)"
+      12: "Tracheostomy Set"
+      13: "Chest Tube"
+      14: "18G Needle"
+      15: "Pigtail Catheter with Drainage Bag"
+      16: "Intraosseous Needle"
+      17: "Bone Needle"
+      18: "Central Venous Catheter (CVC)"
+      19: "Large Bore Needle"
+      20: "Defibrillator"
+      21: "Ventilator"
+      22: "75% Alcohol Solution"
+      23: "10% Povidone-Iodine Solution"
+      24: "2% Chlorhexidine Gluconate (CHG)"
+      25: "Nasogastric Tube"
+      26: "Airway - Oropharynx"
+      27: "Airway - Nasopharynx"
+      28: "Bite Block"
+      29: "Mouth Gag"
+      30: "Tongue Depressor"
+      31: "Hemostatic Forceps"
+      32: "Pupil Gauge"
+      33: "2% Xylocaine Jelly"
+      34: "Scalp Needle"
+      35: "Oxygen Dual-Lumen Tube"
+      36: "Thoracic Drainage Tube"
+      37: "Suction Tube"
+      38: "Nasogastric Tube"
+      39: "K-Y Jelly"
+      40: "Feeding Tube"
+      41: "Single Sterile Drainage Bag"
+      42: "Nasopharyngeal Airway"
+      43: "Oropharyngeal Airway"
+      44: "Sputum Catheter"
+      45: "Yankauer Suction Tip"
+      46: "Endotracheal Tube Stylet"
+      47: "Cricothyroidotomy"
+      48: "Needle Cricothyroidotomy"
+      49: "Tracheotomy Set"
+      50: "NRM with O2"
+      51: "Cervical Collar"
+      52: "Pelvic Binder"
+      53: "Scissors"
+      54: "Endotracheal Tube 3"
+      55: "Laryngeal Mask Airway (iGel)"
+      56: "Penlight"
+      57: "Cotton Swab"
+      58: "Patient Monitor"
+      59: "Heat Lamp"
+      60: "Ultrasound Machine"
+      61: "Various Intravenous Tubing"
+      62: "General IV Set"
+      63: "Blood Transfusion Set"
+      64: "Precision Infusion Set"
+      65: "Nitroglycerin Set"
+      66: "Breathable Tape"
+      67: "14G Venous Catheter"
+      68: "16G Venous Catheter"
+      69: "18G Venous Catheter"
+      70: "20G Venous Catheter"
+      71: "22G Venous Catheter"
+      72: "24G Venous Catheter"
+      73: "Op-Site Dressing"
+      74: "1ml Disposable Plastic Syringe"
+      75: "3ml Disposable Plastic Syringe"
+      76: "5ml Disposable Plastic Syringe"
+      77: "10ml Disposable Plastic Syringe"
+      78: "20ml Disposable Plastic Syringe"
+      79: "60ml Disposable Plastic Syringe"
+      80: "Insulin Syringe"
+      81: "16G Needle"
+      82: "18G Needle"
+      83: "20G Needle"
+      84: "22G Needle"
+      85: "24G Needle"
+      86: "Laryngoscope"
+      87: "Battery"
+      88: "Surgical Gloves"
+      89: "Sterile Dressing"
+      90: "Red/Yellow Top Serum Separator Tube (SST)"
+      91: "Yellow Top Serum Separator Tube (SST)"
+      92: "Red Top Urine Biochemical Tube"
+      93: "Green Top Plastic Tube for Emergency Biochemistry"
+      94: "Purple Top Tube (EDTA)"
+      95: "Blue Top PT Tube"
+      96: "Gray Top Tube (NaF)"
+      97: "ACD Tube"
+      98: "ABG Syringe"
+      99: "Blood Culture"
+      100: "Transparent Adhesive Tape"
+      101: "2-inch Gauze Bandage"
+      102: "Vacuum Blood Collection Tube"
+      103: "Blood Collection Needle"
+      104: "4x4 Gauze"
+      105: "Plastic Bag"
+      106: "Nasogastric Tube"
+      107: "Cleaning Gloves"
+      108: "Waterproof Isolation Gown"
+      109: "Goggles or Face Shield"
+      110: "Disposable Round Surgical Cap"
+      112: "Video Laryngoscope"
+      113: "Cricothyrotomy Set"
+      114: "Needle Cricothyrotomy Set"
+      115: "Foley Catheter"
+      116: "Blood Warmer"
+      117: "Blood Infusion Pressure Cuff"
+      118: "Arterial Catheter"
+      119: "End-Tidal CO2 (ETCO2) Monitor"
+      120: "Nebulizer"
+      121: "Oxygen Extension Tubing"
+      122: "Normal Saline Solution"
+
+    locations:
+      1: "Ambulance Desktop"
+      2: "Ambulance Drawer 1"
+      3: "Ambulance Drawer 2"
+      4: "Ambulance Drawer 3"
+      5: "Ambulance Drawer 4"
+      6: "Nursing Cart"
+      7: "Equipment Area (Ward)"
+      8: "Safe (Emergency Department)"
+      9: "Equipment Area (Outpatient)"
+
+  drugs:
+    title: "Drug Data"
+
+    name: "Drug Name"
+    model: "Model Style"
+    location: "Location"
+    upload: "Upload  Image"
+    change: "Change"
+    during: "During"
+    update: "Edit Drug"
+    create: "Create Drug"
+    data:
+      1: "Tablet"
+      2: "Vial"
+      3: "20ml Bottle"
+      4: "Steam Inhaler Bottle"
+      5: "500ml IV Bag"
+      6: "1000ml IV Bag"
+    locations:
+      1: "Ambulance Desktop"
+      2: "Ambulance Drawer 1"
+      3: "Ambulance Drawer 2"
+      4: "Ambulance Drawer 3"
+      5: "Ambulance Drawer 4"
+      6: "Nursing Cart"
+# 翻譯DONE HERE
