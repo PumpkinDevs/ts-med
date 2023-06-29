@@ -5,7 +5,7 @@ route:
   CMS: CMS
   permission: Permission Management
   account: Account Management
-  agency: Agency Management
+  agency: Institution Management
   training: Training List
   course: Course Management
   courseList: Course List
@@ -19,7 +19,7 @@ route:
 adminOptions: "Admin Mode"
 
 dashboard:
-  title: "Release Version Notification"
+  title: "Version Release Notification"
   version: "Version Number"
   link: "Download Link"
   note: "Updates and Fixes"
@@ -32,7 +32,7 @@ operate:
 username: "Username"
 status: "Status"
 message: "Message"
-datetime: "Datetime"
+datetime: "DateTime"
 action: "Action"
 upload: "Upload File"
 download: "Download File"
@@ -59,13 +59,13 @@ permission:
     accounts: "Account Management"
     scores: "Score Management"
     roles: "Permission Management"
-    teams: "Agency Management"
+    teams: "Institution Management"
     history: "Training List"
     course: "Course Management"
     cms: "Edit CMS"
 
 buttons:
-  logOut: "Log Out"
+  logOut: "Log  Out"
   login: "Log In"
   register: "Register"
   add: "Add"
@@ -79,7 +79,7 @@ buttons:
   unSelectAll: "Unselect All"
   newUser: "New User"
   update: "Update"
-  reLogin: "Re-login"
+  reLogin: "Re-Login"
 
 cms:
   editTitle: "Edit Content"
@@ -89,7 +89,7 @@ cms:
   type: "Product Type"
   file: "Product File"
   image: "Preview Image"
-  emptyHint: "CMS is not enabled for the agency, please contact the administrator."
+  emptyHint: "CMS is not enabled for the institution, please contact the administrator."
 
 datePicker:
   to: "To"
@@ -103,8 +103,10 @@ settings:
 resetPassword:
   title: "Reset Password"
   email: "Email"
-  description: "Enter your email below, and you will receive an email with a password reset link."
-  success: "A password reset link has been sent to your email (if it exists in our system)."
+  description: "Enter your email below, and you will receive an email with a password\
+    \ reset link."
+  success: "A password reset link has been sent to your email (if it exists in our\
+    \ system)."
   newPassword: "New Password"
   confirmPassword: "Confirm Password"
   resetOKHint: "Password reset successful. Please log in using your new password."
@@ -114,8 +116,9 @@ login:
 
 register:
   title: "Register Account"
-  message: "After successful registration, a password will be sent to the email you provided."
-  agencyName: "Agency Name"
+  message: "After successful registration, a password will be sent to the email you\
+    \ provided."
+  agencyName: "Institution Name"
   username: "Name"
   email: "Email"
   sector: "Unit Name"
@@ -136,7 +139,8 @@ messageBox:
   resetPassword: "The password reset link has expired. Please reapply."
   logout:
     title: "Confirm Logout"
-    message: "You have been logged out. You can cancel to stay on this page or log in again."
+    message: "You have been logged out. You can cancel to stay on this page or log\
+      \ in again."
 errorCode:
   50000: "Service is busy, please try again later."
 
@@ -158,15 +162,15 @@ account:
   newUser: "New User"
   editUser: "Edit User"
   deleteUser: "Delete User"
-  agency_name: "Agency Name"
+  agency_name: "Institution Name"
 
 agency:
-  name: "Agency Name"
-  status: "Agency Status"
+  name: "Institution Name"
+  status: "Institution Status"
   register: "Open Registration"
   action: "Action"
   newUser: "New User"
-  new: "New Agency"
+  new: "New Institution"
   username: "Username"
   password: "Password"
   sector: "Department"
@@ -178,7 +182,7 @@ switch:
 
 profile:
   title: "Account Profile"
-  agency: "Agency Name"
+  agency: "Institution Name"
   sector: "Unit Name"
   role: "Role"
   username: "Name"
