@@ -223,7 +223,7 @@ parts:
   chest: "chest"
   abdomen: "abdomen"
   pelvis: "pelvis"
-  lowerLimbs: "lowerLimbs"
+  lowerLimbs: "lower Limbs"
   laryngoscope: "laryngoscope"
   CompleteEKG: "CompleteEKG"
   SONO_1: "Left Lung"
