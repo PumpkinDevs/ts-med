@@ -189,6 +189,7 @@ profile:
   newPassword: "New Password"
   confirmPassword: "Confirm Password"
 
+  contractor: contractor
 course:
   name: "Course Name"
   description: "Description"
