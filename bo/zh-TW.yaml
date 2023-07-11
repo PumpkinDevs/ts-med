@@ -187,6 +187,7 @@ profile:
   newPassword: "新密碼"
   confirmPassword: "確認密碼"
 
+  contractor: 所屬合約商
 course:
   name: "課程名稱"
   description: "說明"
