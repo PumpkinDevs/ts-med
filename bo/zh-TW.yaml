@@ -225,7 +225,7 @@ parts:
   lowerLimbs: "下肢"
   laryngoscope: "喉鏡"
   CompleteEKG: "CompleteEKG"
-  SONO_1: "Left Lung"
+  SONO_1: "左肺"
   SONO_2: "Right Lung"
   SONO_3: "LUQ"
   SONO_4: "RUQ"
