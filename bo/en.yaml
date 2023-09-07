@@ -1,572 +1,473 @@
-route:
-  home: Home
-  operate: Operation Records
-  report: Data Reports
-  CMS: CMS
-  permission: Permission Management
-  account: Account Management
-  agency: Institution Management
-  training: Training List
-  course: Course Management
-  courseList: Course List
-  courseEdit: Edit Course
-  coursePatient: Patient Data
-  courseObject: Object Data
-  update: Update Information
-  profile: Account Profile
-  score: Scorecard
-
-adminOptions: "Admin Mode"
-
-dashboard:
-  title: "Version Release Notification"
-  version: "Version Number"
-  link: "Download Link"
-  note: "Updates and Fixes"
-
-operate:
-  message: "Message"
-  status: "Status"
-  time: "Time"
-
-username: "Username"
-status: "Status"
-message: "Message"
-datetime: "DateTime"
-action: "Action"
-upload: "Upload File"
-download: "Download File"
-forgetPassword: "Forgot Password"
-password: "Password"
-processing: "Processing..."
-empty: "Not set yet"
-
-form:
-  required: "Required field"
-  file: "File is required"
-  password: "Please enter a password"
-  email: "Email cannot be empty"
-  validEmail: "Please enter a valid email"
-  role: "Please select a role"
-
-permission:
-  name: "Role Name"
-  description: "Role Description"
-  rules: "Permissions"
-  action: "Action"
-  newRole: "New Role"
-  roleTitle:
-    accounts: "Account Management"
-    scores: "Score Management"
-    roles: "Permission Management"
-    teams: "Institution Management"
-    history: "Training List"
-    course: "Course Management"
-    cms: "Edit CMS"
-
-buttons:
-  logOut: "Log  Out"
-  login: "Log In"
-  register: "Register"
-  add: "Add"
-  mark: "Mark/Unmark"
-  cancel: "Cancel"
-  save: "Save"
-  confirm: "Confirm"
-  delete: "Delete"
-  edit: "Edit"
-  selectAll: "Select All"
-  unSelectAll: "Unselect All"
-  newUser: "New User"
-  update: "Update"
-  reLogin: "Re-Login"
-
-cms:
-  editTitle: "Edit Content"
-  newTitle: "New Content"
-  name: "Product Name"
-  description: "Product Description"
-  type: "Product Type"
-  file: "Product File"
-  image: "Preview Image"
-  emptyHint: "CMS is not enabled for the institution, please contact the administrator."
-
-datePicker:
-  to: "To"
-  start: "Start Date"
-
-settings:
-  style: "Page Style Settings"
-  color: "Theme Color"
-  fixedHeader: "Fixed Header"
-
-resetPassword:
-  title: "Reset Password"
-  email: "Email"
-  description: "Enter your email below, and you will receive an email with a password\
-    \ reset link."
-  success: "A password reset link has been sent to your email (if it exists in our\
-    \ system)."
-  newPassword: "New Password"
-  confirmPassword: "Confirm Password"
-  resetOKHint: "Password reset successful. Please log in using your new password."
-
-login:
-  tooltip: "Caps Lock is On"
-
-register:
-  title: "Register Account"
-  message: "After successful registration, a password will be sent to the email you\
-    \ provided."
-  agencyName: "Institution Name"
-  username: "Name"
-  email: "Email"
-  sector: "Unit Name"
-  role: "Role"
-
-tooltip:
-  capsTooltip: "Caps Lock is On"
-  fileMaxLimit: "File is too large. Maximum limit"
-  toPNG: "System supports converting to PNG format"
-  wavOnly: "Only .wav files are supported for upload"
-  maxPhone: "Maximum 10 phone numbers"
-
-valid:
-  password: "Please enter a password"
-  checkPassword: "Passwords do not match"
-
-messageBox:
-  resetPassword: "The password reset link has expired. Please reapply."
-  logout:
-    title: "Confirm Logout"
-    message: "You have been logged out. You can cancel to stay on this page or log\
-      \ in again."
-errorCode:
-  50000: "Service is busy, please try again later."
-
-confirm:
-  remove: "Are you sure you want to delete?"
-  status: "Are you sure you want to change the status?"
-
-apiSuccess: "Operation successful"
-
-fileLimit: "File Limit"
-preview: "Preview"
-
-account:
-  username: "Username"
-  email: "Account/Email"
-  sector: "Department"
-  role: "Role"
-  action: "Action"
-  newUser: "New User"
-  editUser: "Edit User"
-  deleteUser: "Delete User"
-  agency_name: "Institution Name"
-
-agency:
-  name: "Institution Name"
-  status: "Institution Status"
-  register: "Open Registration"
-  action: "Action"
-  newUser: "New User"
-  new: "New Institution"
-  username: "Username"
-  password: "Password"
-  sector: "Department"
-  role: "Role"
-
-switch:
-  on: "On"
-  off: "Off"
-
-profile:
-  title: "Account Profile"
-  agency: "Institution Name"
-  sector: "Unit Name"
-  role: "Role"
-  username: "Name"
-  newPassword: "New Password"
-  confirmPassword: "Confirm Password"
-
-  contractor: contractor
-course:
-  name: "Course Name"
-  description: "Description"
-  creator: "Creator"
-  createdAt: "Creation"
-  updatedAt: "Modification"
-  action: "Action"
-  duplicate: "Duplicate"
-  duplicateMessage: "Confirm whether to duplicate. This operation may take some time."
-  type: "Course Type"
-  px: "Patient Background"
-  nr: "Nursing record"
-  type_1: "Emergency department"
-  type_2: "Outpatient department"
-  type_3: "Ward"
-  title:
-    basic: "Basic Information"
-    patient: "Patient Data"
-    object: "Object Data"
-
-  resolutionRequirements: "Resolution Requirements"
-  fullPreview: "Full Image Preview"
-  partName: "Part Name"
-  parts: "Parts"
-  status: "Status Naming"
-  file: "File"
-  preview: "Preview"
-
-parts:
-  part: "part"
-  head: "head"
-  chest: "chest"
-  abdomen: "Abdomen"
-  pelvis: "Pelvis"
-  lowerLimbs: "Lower limbs"
-  laryngoscope: "Laryngoscope"
-  CompleteEKG: "CompleteEKG"
-  SONO_1: "Left Lung"
-  SONO_2: "Right Lung"
-  SONO_3: "LUQ"
-  SONO_4: "RUQ"
-  SONO_5: "Pelvis"
-  SONO_6: "Cardiac"
-  SONO_7: "Left Neck"
-  SONO_8: "Right Neck"
-
-patient:
-  sounds:
-    title: "Auscultation"
-    type:
-      heart: "Heart Sounds"
-      lung: "Lung Sounds"
-      bowel: "Bowel Sounds"
-      percussion: "Percussion"
-  bodyImages:
-    title: "Body Images"
-  bodyType:
-    1: "Head"
-    2: "Upper Body"
-    3: "Lower Body"
-    4: "Back"
-  palpation:
-    title: "Palpation"
-    type:
-      chest: "Chest"
-      pelvis: "Pelvis"
-      spine: "Spine"
-      anal: "Anus"
-    reaction:
-      title: "Reaction Settings"
-      type:
-        hand: "Reaction when gripping patient's hand"
-        toe: "Reaction when stimulating toe with cotton swab"
-        feet: "Reaction when gripping patient's feet"
-        solePlate: "Reaction when stimulating sole with cotton swab"
-    edema:
-      title: "Edema Settings"
-      type:
-        1: "Left Lower Limb"
-        2: "Right Lower Limb"
-        3: "Bilateral"
-        4: "None"
-  face:
-    title: "Face"
-    eye:
-      name: "Eyes"
-      close: "Closed"
-      half: "Half-open"
-      open: "Open"
-    wink: "Number of Eye Blinks (per minute)"
-    sclera: "Sclera Color"
-    faceColor: "Face Color"
-    color:
-      white: "White"
-      yellow: "Yellow"
-      black: "Black"
-      normal: "Normal"
-    pupil:
-      title: "Pupil Settings"
-      light: "Light Reaction"
-      reaction: "Reaction Speed"
-      size: "Pupil Size"
-      left: "Left Pupil"
-      right: "Right Pupil"
-      no: "No"
-      yes: "Yes"
-      slow: "Slow"
-      quick: "Quick"
-      normal: "Normal"
-      needel: "Needle-shaped"
-      zoomIn: "Zoom In"
-
-  physical:
-    title: "Physiological Signs"
-    settings: "Initial Settings"
-    name: "Parameter Name"
-    value: "Initial Value"
-    target: "Target Value/Interval Time (s)"
-    heartbeat: "Heart Rate"
-    SPO2: "SPO2"
-    SBP: "Systolic Blood Pressure"
-    DBP: "Diastolic Blood Pressure"
-    BR: "Respiratory Rate"
-    BT: "Body Temperature"
-    BO: "Blood Oxygen"
-    waveform: "Heart Rhythm Waveform"
-    waveformType:
-      1: "Normal"
-      2: "VF"
-      3: "VT"
-      4: "Asystole"
-      5: "Sinus Rhythm Post Ischemia"
-      6: "Sinus Rhythm with Ischemia"
-      7: "Sinus Rhythm"
-      8: "Sinus with Anterior AMI, ST elevation"
-      9: "Sinus with Inferior AMI, ST elevation"
-      10: "Standstill"
-    NG:
-      title: "NG Drainage Results"
-      description: "NG Tube Color and Characteristics"
-    urine:
-      title: "Urine"
-      description: "Urine Drainage Tube Color and Characteristics"
-
-  image:
-    title: "Image Data"
-    type:
-      1: "XRAY"
-      2: "CT"
-      3: "SONO"
-      4: "Laryngoscope"
-      5: "CompleteEKG"
-  data:
-    title: "Laboratory Data"
-    create: "Create Laboratory Data"
-    update: "Edit Laboratory Data"
-    remove: "Delete Data"
-    category: "Test Category"
-    name: "Test Item"
-    value: "Value"
-    rv: "Reference Value"
-    unit: "Unit"
-    categoryType:
-      0: "CBC/DC"
-      1: "Coagulation"
-      2: "Blood Type"
-      3: "Blood Gas - Arterial"
-      4: "Blood Gas - Venous"
-      5: "Biochemistry"
-      6: "Electrolyte"
-      7: "Drug Screening"
-      8: "Urinalysis"
-      9: "Stool Examination"
-      10: "Bacterial Culture"
-      11: "PCR Test"
-  others:
-    title: "Others"
-    ofb: "Foreign Body in Oral Cavity"
-    pulse: "Pulse Settings"
-    instant: "Real-time Information"
-    status: "Status"
-    type: "Type"
-    parts: "Body Parts"
-    description: "Custom Description"
-    message: "Instant Audio"
-    file: "File"
-    action: "Action"
-    preview: "Preview"
-    image: "Real-time Image"
-    no: "No"
-    yes: "Yes"
-    strong: "Strong"
-    weak: "Weak"
-
-  head: "Head"
-  chest: "Chest"
-  abdomen: "Abdomen"
-  pelvis: "Pelvis"
-  lowerLimbs: "Lower Limbs"
-  laryngoscope: "Laryngoscope"
-
-objects:
-  phone:
-    title: "Phone Extension"
-    ext: "Extension Number"
-    uploadDrag: "Drag and drop file here or"
-    uploadClick: "Click here to upload"
-
-  items:
-    title: "Object Data"
-    btnNew: "New Object"
-    btnQuick: "Quick Create"
-
-    name: "Object Name"
-    location: "Object Location"
-    change: "Change"
-    during: "During"
-    update: "Update Items"
-    create: "Create Items"
-
-    data:
-      1: "BVM Mask"
-      2: "Tourniquet"
-      3: "Nasopharyngeal Airway (NPA)"
-      4: "Oropharyngeal Airway (OPA)"
-      5: "Tongue Depressor"
-      6: "Nasal Cannula"
-      7: "Oxygen Mask"
-      8: "Non-Rebreather Mask"
-      9: "Endotracheal Tube"
-      10: "Laryngeal Mask Airway (LMA)"
-      11: "Laryngeal Mask Airway (iGel)"
-      12: "Tracheostomy Set"
-      13: "Chest Tube"
-      14: "18G Needle"
-      15: "Pigtail Catheter with Drainage Bag"
-      16: "Intraosseous Needle"
-      17: "Bone Needle"
-      18: "Central Venous Catheter (CVC)"
-      19: "Large Bore Needle"
-      20: "Defibrillator"
-      21: "Ventilator"
-      22: "75% Alcohol Solution"
-      23: "10% Povidone-Iodine Solution"
-      24: "2% Chlorhexidine Gluconate (CHG)"
-      25: "Nasogastric Tube"
-      26: "Airway - Oropharynx"
-      27: "Airway - Nasopharynx"
-      28: "Bite Block"
-      29: "Mouth Gag"
-      30: "Tongue Depressor"
-      31: "Hemostatic Forceps"
-      32: "Pupil Gauge"
-      33: "2% Xylocaine Jelly"
-      34: "Scalp Needle"
-      35: "Oxygen Dual-Lumen Tube"
-      36: "Thoracic Drainage Tube"
-      37: "Suction Tube"
-      38: "Nasogastric Tube"
-      39: "K-Y Jelly"
-      40: "Feeding Tube"
-      41: "Single Sterile Drainage Bag"
-      42: "Nasopharyngeal Airway"
-      43: "Oropharyngeal Airway"
-      44: "Sputum Catheter"
-      45: "Yankauer Suction Tip"
-      46: "Endotracheal Tube Stylet"
-      47: "Cricothyroidotomy"
-      48: "Needle Cricothyroidotomy"
-      49: "Tracheotomy Set"
-      50: "NRM with O2"
-      51: "Cervical Collar"
-      52: "Pelvic Binder"
-      53: "Scissors"
-      54: "Endotracheal Tube 3"
-      55: "Laryngeal Mask Airway (iGel)"
-      56: "Penlight"
-      57: "Cotton Swab"
-      58: "Patient Monitor"
-      59: "Heat Lamp"
-      60: "Ultrasound Machine"
-      61: "Various Intravenous Tubing"
-      62: "General IV Set"
-      63: "Blood Transfusion Set"
-      64: "Precision Infusion Set"
-      65: "Nitroglycerin Set"
-      66: "Breathable Tape"
-      67: "14G Venous Catheter"
-      68: "16G Venous Catheter"
-      69: "18G Venous Catheter"
-      70: "20G Venous Catheter"
-      71: "22G Venous Catheter"
-      72: "24G Venous Catheter"
-      73: "Op-Site Dressing"
-      74: "1ml Disposable Plastic Syringe"
-      75: "3ml Disposable Plastic Syringe"
-      76: "5ml Disposable Plastic Syringe"
-      77: "10ml Disposable Plastic Syringe"
-      78: "20ml Disposable Plastic Syringe"
-      79: "60ml Disposable Plastic Syringe"
-      80: "Insulin Syringe"
-      81: "16G Needle"
-      82: "18G Needle"
-      83: "20G Needle"
-      84: "22G Needle"
-      85: "24G Needle"
-      86: "Laryngoscope"
-      87: "Battery"
-      88: "Surgical Gloves"
-      89: "Sterile Dressing"
-      90: "Red/Yellow Top Serum Separator Tube (SST)"
-      91: "Yellow Top Serum Separator Tube (SST)"
-      92: "Red Top Urine Biochemical Tube"
-      93: "Green Top Plastic Tube for Emergency Biochemistry"
-      94: "Purple Top Tube (EDTA)"
-      95: "Blue Top PT Tube"
-      96: "Gray Top Tube (NaF)"
-      97: "ACD Tube"
-      98: "ABG Syringe"
-      99: "Blood Culture"
-      100: "Transparent Adhesive Tape"
-      101: "2-inch Gauze Bandage"
-      102: "Vacuum Blood Collection Tube"
-      103: "Blood Collection Needle"
-      104: "4x4 Gauze"
-      105: "Plastic Bag"
-      106: "Nasogastric Tube"
-      107: "Cleaning Gloves"
-      108: "Waterproof Isolation Gown"
-      109: "Goggles or Face Shield"
-      110: "Disposable Round Surgical Cap"
-      112: "Video Laryngoscope"
-      113: "Cricothyrotomy Set"
-      114: "Needle Cricothyrotomy Set"
-      115: "Foley Catheter"
-      116: "Blood Warmer"
-      117: "Blood Infusion Pressure Cuff"
-      118: "Arterial Catheter"
-      119: "End-Tidal CO2 (ETCO2) Monitor"
-      120: "Nebulizer"
-      121: "Oxygen Extension Tubing"
-      122: "Normal Saline Solution"
-
-    locations:
-      1: "Ambulance Desktop"
-      2: "Ambulance Drawer 1"
-      3: "Ambulance Drawer 2"
-      4: "Ambulance Drawer 3"
-      5: "Ambulance Drawer 4"
-      6: "Nursing Cart"
-      7: "Equipment Area (Ward)"
-      8: "Safe (Emergency department)"
-      9: "Equipment Area (Outpatient)"
-
-  drugs:
-    title: "Drug Data"
-
-    name: "Drug Name"
-    model: "Model Style"
-    location: "Location"
-    upload: "Upload  Image"
-    change: "Change"
-    during: "During"
-    update: "Edit Drug"
-    create: "Create Drug"
-    data:
-      1: "Tablet"
-      2: "Vial"
-      3: "20ml Bottle"
-      4: "Steam Inhaler Bottle"
-      5: "500ml IV Bag"
-      6: "1000ml IV Bag"
-    locations:
-      1: "Ambulance Desktop"
-      2: "Ambulance Drawer 1"
-      3: "Ambulance Drawer 2"
-      4: "Ambulance Drawer 3"
-      5: "Ambulance Drawer 4"
-      6: "Medical Cart"
-# 翻譯DONE HERE
+location,source,target,id,fuzzy,context,translator_comments,developer_comments
+,首頁,Home1,,FALSE,route->home,,
+,操作記錄,Operation Records,,FALSE,route->operate,,
+,數據報表,Data Reports,,FALSE,route->report,,
+,CMS,CMS,,FALSE,route->CMS,,
+,權限管理,Permission Management,,FALSE,route->permission,,
+,帳號管理,Account Management,,FALSE,route->account,,
+,機構管理,Institution Management,,FALSE,route->agency,,
+,訓練列表,Training List,,FALSE,route->training,,
+,課程管理,Course Management,,FALSE,route->course,,
+,課程列表,Course List,,FALSE,route->courseList,,
+,編輯課程,Edit Course,,FALSE,route->courseEdit,,
+,病患資料,Patient Data,,FALSE,route->coursePatient,,
+,物件資料,Object Data,,FALSE,route->courseObject,,
+,更新資訊,Update Information,,FALSE,route->update,,
+,帳戶資料,Account Profile,,FALSE,route->profile,,
+,成績單,Scorecard,,FALSE,route->score,,
+,管理模式,Admin Mode,,FALSE,adminOptions,,
+,發佈版本通知,Version Release Notification,,FALSE,dashboard->title,,
+,版本號,Version Number,,FALSE,dashboard->version,,
+,下載連結,Download Link,,FALSE,dashboard->link,,
+,更新與修正,Updates and Fixes,,FALSE,dashboard->note,,
+,訊息,Message,,FALSE,operate->message,,
+,狀態,Status,,FALSE,operate->status,,
+,時間,Time,,FALSE,operate->time,,
+,使用者名稱,Username,,FALSE,username,,
+,狀態,Status,,FALSE,status,,
+,訊息,Message,,FALSE,message,,
+,時間,DateTime,,FALSE,datetime,,
+,操作,Action,,FALSE,action,,
+,上傳檔案,Upload File,,FALSE,upload,,
+,下載檔案,Download File,,FALSE,download,,
+,忘記密碼,Forgot Password,,FALSE,forgetPassword,,
+,密碼,Password,,FALSE,password,,
+,處理中...,Processing...,,FALSE,processing,,
+,尚未設定,Not set yet,,FALSE,empty,,
+,必填欄位,Required field,,FALSE,form->required,,
+,檔案必選,File is required,,FALSE,form->file,,
+,請輸入密碼,Please enter a password,,FALSE,form->password,,
+,email不能為空,Email cannot be empty,,FALSE,form->email,,
+,請輸入正確的email,Please enter a valid email,,FALSE,form->validEmail,,
+,請選擇身份,Please select a role,,FALSE,form->role,,
+,角色名稱,Role Name,,FALSE,permission->name,,
+,角色描述,Role Description,,FALSE,permission->description,,
+,開放權限,Permissions,,FALSE,permission->rules,,
+,操作,Action,,FALSE,permission->action,,
+,新增角色,New Role,,FALSE,permission->newRole,,
+,帳號管理,Account Management,,FALSE,permission->roleTitle->accounts,,
+,評分管理,Score Management,,FALSE,permission->roleTitle->scores,,
+,權限管理,Permission Management,,FALSE,permission->roleTitle->roles,,
+,機構管理,Institution Management,,FALSE,permission->roleTitle->teams,,
+,訓練列表,Training List,,FALSE,permission->roleTitle->history,,
+,課程管理,Course Management,,FALSE,permission->roleTitle->course,,
+,編輯CMS,Edit CMS,,FALSE,permission->roleTitle->cms,,
+,退出系统,Log Out,,FALSE,buttons->logOut,,
+,登入,Log In,,FALSE,buttons->login,,
+,註冊,Register,,FALSE,buttons->register,,
+,新增,Add,,FALSE,buttons->add,,
+,標記/取消,Mark/Unmark,,FALSE,buttons->mark,,
+,取消,Cancel,,FALSE,buttons->cancel,,
+,儲存,Save,,FALSE,buttons->save,,
+,確認,Confirm,,FALSE,buttons->confirm,,
+,刪除,Delete,,FALSE,buttons->delete,,
+,編輯,Edit,,FALSE,buttons->edit,,
+,全選,Select All,,FALSE,buttons->selectAll,,
+,全不選,Unselect All,,FALSE,buttons->unSelectAll,,
+,新增用戶,New User,,FALSE,buttons->newUser,,
+,更新,Update,,FALSE,buttons->update,,
+,重新登入,Re-Login,,FALSE,buttons->reLogin,,
+,編輯內容,Edit Content,,FALSE,cms->editTitle,,
+,新增內容,New Content,,FALSE,cms->newTitle,,
+,商品名稱,Product Name,,FALSE,cms->name,,
+,商品簡介,Product Description,,FALSE,cms->description,,
+,商品類型,Product Type,,FALSE,cms->type,,
+,商品檔案,Product File,,FALSE,cms->file,,
+,預覽圖,Preview Image,,FALSE,cms->image,,
+,"機構尚未開啟 CMS 使用, 請洽管理員","CMS is not enabled for the institution, please contact the administrator.",,FALSE,cms->emptyHint,,
+,to,To,,FALSE,datePicker->to,,
+,開始日期,Start Date,,FALSE,datePicker->start,,
+,頁面樣式設置,Page Style Settings,,FALSE,settings->style,,
+,主題色,Theme Color,,FALSE,settings->color,,
+,固定標題,Fixed Header,,FALSE,settings->fixedHeader,,
+,重設密碼,Reset Password,,FALSE,resetPassword->title,,
+,電子郵件,Email,,FALSE,resetPassword->email,,
+,在下方輸入您的電子郵件，您將收到一封帶有密碼重設連結的郵件。,"Enter your email below, and you will receive an email with a password reset link.",,FALSE,resetPassword->description,,
+,重設密碼的連結已發送至電子郵件（如果此郵件在我們的系統中存在）,A password reset link has been sent to your email (if it exists in our system).,,FALSE,resetPassword->success,,
+,新密碼,New Password,,FALSE,resetPassword->newPassword,,
+,確認密碼,Confirm Password,,FALSE,resetPassword->confirmPassword,,
+,"密碼重設成功, 請使用新密碼登入.",Password reset successful. Please log in using your new password.,,FALSE,resetPassword->resetOKHint,,
+,大寫鎖定已開啟,Caps Lock is On,,FALSE,login->tooltip,,
+,註冊帳號,Register Account,,FALSE,register->title,,
+,"註冊成功後, 系統會發送密碼至您填寫的信箱中。","After successful registration, a password will be sent to the email you provided.",,FALSE,register->message,,
+,機構名稱,Institution Name,,FALSE,register->agencyName,,
+,姓名,Name,,FALSE,register->username,,
+,Email,Email,,FALSE,register->email,,
+,單位名稱,Unit Name,,FALSE,register->sector,,
+,身份,Role,,FALSE,register->role,,
+,大寫鎖定已開啟,Caps Lock is On,,FALSE,tooltip->capsTooltip,,
+,"檔案太大, 最大限制",File is too large. Maximum limit,,FALSE,tooltip->fileMaxLimit,,
+,系統支援轉檔 png格式,System supports converting to PNG format,,FALSE,tooltip->toPNG,,
+,只支持上傳.wav後綴的文件,Only .wav files are supported for upload,,FALSE,tooltip->wavOnly,,
+,最多10組電話,Maximum 10 phone numbers,,FALSE,tooltip->maxPhone,,
+,請輸入密碼,Please enter a password,,FALSE,valid->password,,
+,兩次輸入密碼不同,Passwords do not match,,FALSE,valid->checkPassword,,
+,"此密碼重設連結已過期, 請重新申請.",The password reset link has expired. Please reapply.,,FALSE,messageBox->resetPassword,,
+,確認登出,Confirm Logout,,FALSE,messageBox->logout->title,,
+,您已登出，您可以取消以留在此頁面，或重新登入,You have been logged out. You can cancel to stay on this page or log in again.,,FALSE,messageBox->logout->message,,
+,"服務忙錄中, 請稍後再試.","Service is busy, please try again later.",,FALSE,errorCode->50000,,
+,"即將刪除, 是否確認?",Are you sure you want to delete?,,FALSE,confirm->remove,,
+,"即將變更狀態, 是否確認?",Are you sure you want to change the status?,,FALSE,confirm->status,,
+,操作成功,Operation successful,,FALSE,apiSuccess,,
+,檔案限制,File Limit,,FALSE,fileLimit,,
+,預覽,Preview,,FALSE,preview,,
+,用戶名稱,Username,,FALSE,account->username,,
+,帳號/email,Account/Email,,FALSE,account->email,,
+,部門,Department,,FALSE,account->sector,,
+,角色,Role,,FALSE,account->role,,
+,操作,Action,,FALSE,account->action,,
+,新增用戶,New User,,FALSE,account->newUser,,
+,編輯用戶,Edit User,,FALSE,account->editUser,,
+,刪除用戶,Delete User,,FALSE,account->deleteUser,,
+,機構名稱,Institution Name,,FALSE,account->agency_name,,
+,機構名稱,Institution Name,,FALSE,agency->name,,
+,機構狀態,Institution Status,,FALSE,agency->status,,
+,開放註冊,Open Registration,,FALSE,agency->register,,
+,操作,Action,,FALSE,agency->action,,
+,新增用戶,New User,,FALSE,agency->newUser,,
+,新增機構,New Institution,,FALSE,agency->new,,
+,用戶名稱,Username,,FALSE,agency->username,,
+,密碼,Password,,FALSE,agency->password,,
+,部門,Department,,FALSE,agency->sector,,
+,角色,Role,,FALSE,agency->role,,
+,開啟,On,,FALSE,switch->on,,
+,關閉,Off,,FALSE,switch->off,,
+,帳戶資料,Account Profile,,FALSE,profile->title,,
+,機構名稱,Institution Name,,FALSE,profile->agency,,
+,單位名稱,Unit Name,,FALSE,profile->sector,,
+,角色,Role,,FALSE,profile->role,,
+,姓名,Name,,FALSE,profile->username,,
+,新密碼,New Password,,FALSE,profile->newPassword,,
+,確認密碼,Confirm Password,,FALSE,profile->confirmPassword,,
+,課程名稱,Course Name,,FALSE,course->name,,
+,說明,Description,,FALSE,course->description,,
+,建立者,Creator,,FALSE,course->creator,,
+,建立時間,Creation,,FALSE,course->createdAt,,
+,修改時間,Modification,,FALSE,course->updatedAt,,
+,操作,Action,,FALSE,course->action,,
+,複製教案,Duplicate,,FALSE,course->duplicate,,
+,"確認是否要複製, 此操作會須等待一點時間",Confirm whether to duplicate. This operation may take some time.,,FALSE,course->duplicateMessage,,
+,課程場景,Course Type,,FALSE,course->type,,
+,病患背景,Patient Background,,FALSE,course->px,,
+,護理紀錄,Nursing record,,FALSE,course->nr,,
+,急診,Emergency department,,FALSE,course->type_1,,
+,門診,Outpatient department,,FALSE,course->type_2,,
+,病房,Ward,,FALSE,course->type_3,,
+,基本資料,Basic Information,,FALSE,course->title->basic,,
+,病患資料,Patient Data,,FALSE,course->title->patient,,
+,物件資料,Object Data,,FALSE,course->title->object,,
+,解析度要求,Resolution Requirements,,FALSE,course->resolutionRequirements,,
+,預覽全圖,Full Image Preview,,FALSE,course->fullPreview,,
+,部位名稱,Part Name,,FALSE,course->partName,,
+,部位,Parts,,FALSE,course->parts,,
+,狀態命名,Status Naming,,FALSE,course->status,,
+,檔案,File,,FALSE,course->file,,
+,預覽,Preview,,FALSE,course->preview,,
+,部位,part,,FALSE,parts->part,,
+,頭,head,,FALSE,parts->head,,
+,胸,chest,,FALSE,parts->chest,,
+,腹,Abdomen,,FALSE,parts->abdomen,,
+,骨盆,Pelvis,,FALSE,parts->pelvis,,
+,下肢,Lower limbs,,FALSE,parts->lowerLimbs,,
+,喉鏡,Laryngoscope,,FALSE,parts->laryngoscope,,
+,CompleteEKG,CompleteEKG,,FALSE,parts->CompleteEKG,,
+,Left Lung,Left Lung,,FALSE,parts->SONO_1,,
+,Right Lung,Right Lung,,FALSE,parts->SONO_2,,
+,LUQ,LUQ,,FALSE,parts->SONO_3,,
+,RUQ,RUQ,,FALSE,parts->SONO_4,,
+,Pelvis,Pelvis,,FALSE,parts->SONO_5,,
+,Cardiac,Cardiac,,FALSE,parts->SONO_6,,
+,Left Neck,Left Neck,,FALSE,parts->SONO_7,,
+,Right Neck,Right Neck,,FALSE,parts->SONO_8,,
+,聽診,Auscultation,,FALSE,patient->sounds->title,,
+,心音,Heart Sounds,,FALSE,patient->sounds->type->heart,,
+,肺音,Lung Sounds,,FALSE,patient->sounds->type->lung,,
+,腸胃音,Bowel Sounds,,FALSE,patient->sounds->type->bowel,,
+,扣診,Percussion,,FALSE,patient->sounds->type->percussion,,
+,身體影像,Body Images,,FALSE,patient->bodyImages->title,,
+,頭部,Head,,FALSE,patient->bodyType->1,,
+,上半身,Upper Body,,FALSE,patient->bodyType->2,,
+,下半身,Lower Body,,FALSE,patient->bodyType->3,,
+,背部,Back,,FALSE,patient->bodyType->4,,
+,觸診,Palpation,,FALSE,patient->palpation->title,,
+,胸口,Chest,,FALSE,patient->palpation->type->chest,,
+,骨盆,Pelvis,,FALSE,patient->palpation->type->pelvis,,
+,脊椎,Spine,,FALSE,patient->palpation->type->spine,,
+,肛門,Anus,,FALSE,patient->palpation->type->anal,,
+,反應設定,Reaction Settings,,FALSE,patient->palpation->reaction->title,,
+,抓取病患手部時反應,Reaction when gripping patient's hand,,FALSE,patient->palpation->reaction->type->hand,,
+,棉棒刺激腳趾時反應,Reaction when stimulating toe with cotton swab,,FALSE,patient->palpation->reaction->type->toe,,
+,抓取病患腳部時反應,Reaction when gripping patient's feet,,FALSE,patient->palpation->reaction->type->feet,,
+,棉棒刺激腳底板時反應,Reaction when stimulating sole with cotton swab,,FALSE,patient->palpation->reaction->type->solePlate,,
+,水腫設定,Edema Settings,,FALSE,patient->palpation->edema->title,,
+,左下肢,Left Lower Limb,,FALSE,patient->palpation->edema->type->1,,
+,右下肢,Right Lower Limb,,FALSE,patient->palpation->edema->type->2,,
+,全有,Bilateral,,FALSE,patient->palpation->edema->type->3,,
+,全無,None,,FALSE,patient->palpation->edema->type->4,,
+,臉部,Face,,FALSE,patient->face->title,,
+,眼睛,Eyes,,FALSE,patient->face->eye->name,,
+,全閉,Closed,,FALSE,patient->face->eye->close,,
+,半開,Half-open,,FALSE,patient->face->eye->half,,
+,全開,Open,,FALSE,patient->face->eye->open,,
+,眨眼次數(1分鐘),Number of Eye Blinks (per minute),,FALSE,patient->face->wink,,
+,鞏膜顏色,Sclera Color,,FALSE,patient->face->sclera,,
+,臉部顏色,Face Color,,FALSE,patient->face->faceColor,,
+,白色,White,,FALSE,patient->face->color->white,,
+,黃色,Yellow,,FALSE,patient->face->color->yellow,,
+,黑色,Black,,FALSE,patient->face->color->black,,
+,正常,Normal,,FALSE,patient->face->color->normal,,
+,瞳孔設定,Pupil Settings,,FALSE,patient->face->pupil->title,,
+,光反應,Light Reaction,,FALSE,patient->face->pupil->light,,
+,反應速度,Reaction Speed,,FALSE,patient->face->pupil->reaction,,
+,瞳孔大小,Pupil Size,,FALSE,patient->face->pupil->size,,
+,左曈孔,Left Pupil,,FALSE,patient->face->pupil->left,,
+,右瞳孔,Right Pupil,,FALSE,patient->face->pupil->right,,
+,無,No,,FALSE,patient->face->pupil->no,,
+,有,Yes,,FALSE,patient->face->pupil->yes,,
+,慢,Slow,,FALSE,patient->face->pupil->slow,,
+,快,Quick,,FALSE,patient->face->pupil->quick,,
+,正常,Normal,,FALSE,patient->face->pupil->normal,,
+,針狀,Needle-shaped,,FALSE,patient->face->pupil->needel,,
+,放大,Zoom In,,FALSE,patient->face->pupil->zoomIn,,
+,生理病徵,Physiological Signs,,FALSE,patient->physical->title,,
+,初始設定,Initial Settings,,FALSE,patient->physical->settings,,
+,數值名稱,Parameter Name,,FALSE,patient->physical->name,,
+,起始值,Initial Value,,FALSE,patient->physical->value,,
+,目標值/區間時間(s),Target Value/Interval Time (s),,FALSE,patient->physical->target,,
+,心跳,Heart Rate,,FALSE,patient->physical->heartbeat,,
+,SPO2,SPO2,,FALSE,patient->physical->SPO2,,
+,收縮壓,Systolic Blood Pressure,,FALSE,patient->physical->SBP,,
+,舒張壓,Diastolic Blood Pressure,,FALSE,patient->physical->DBP,,
+,呼吸速率,Respiratory Rate,,FALSE,patient->physical->BR,,
+,體溫,Body Temperature,,FALSE,patient->physical->BT,,
+,血氧,Blood Oxygen,,FALSE,patient->physical->BO,,
+,心律波形,Heart Rhythm Waveform,,FALSE,patient->physical->waveform,,
+,正常,Normal,,FALSE,patient->physical->waveformType->1,,
+,VF,VF,,FALSE,patient->physical->waveformType->2,,
+,VT,VT,,FALSE,patient->physical->waveformType->3,,
+,Asystole,Asystole,,FALSE,patient->physical->waveformType->4,,
+,Sinus Rhythm Post Ischemia,Sinus Rhythm Post Ischemia,,FALSE,patient->physical->waveformType->5,,
+,Sinus Rhythm with Ischemia,Sinus Rhythm with Ischemia,,FALSE,patient->physical->waveformType->6,,
+,Sinus Rhythm,Sinus Rhythm,,FALSE,patient->physical->waveformType->7,,
+,"Sinus with Anterior AMI, ST elevation","Sinus with Anterior AMI, ST elevation",,FALSE,patient->physical->waveformType->8,,
+,"Sinus with Inferior AMI, ST elevation","Sinus with Inferior AMI, ST elevation",,FALSE,patient->physical->waveformType->9,,
+,standstill,Standstill,,FALSE,patient->physical->waveformType->10,,
+,NG引流結果,NG Drainage Results,,FALSE,patient->physical->NG->title,,
+,NG引流管顏色及性狀,NG Tube Color and Characteristics,,FALSE,patient->physical->NG->description,,
+,尿液,Urine,,FALSE,patient->physical->urine->title,,
+,尿液引流管顏色及性狀,Urine Drainage Tube Color and Characteristics,,FALSE,patient->physical->urine->description,,
+,影像資料,Image Data,,FALSE,patient->image->title,,
+,XRAY,XRAY,,FALSE,patient->image->type->1,,
+,CT,CT,,FALSE,patient->image->type->2,,
+,SONO,SONO,,FALSE,patient->image->type->3,,
+,喉鏡,Laryngoscope,,FALSE,patient->image->type->4,,
+,CompleteEKG,CompleteEKG,,FALSE,patient->image->type->5,,
+,檢驗資料,Laboratory Data,,FALSE,patient->data->title,,
+,新增檢驗資料,Create Laboratory Data,,FALSE,patient->data->create,,
+,編輯檢驗資料,Edit Laboratory Data,,FALSE,patient->data->update,,
+,刪除資料,Delete Data,,FALSE,patient->data->remove,,
+,檢驗類別,Test Category,,FALSE,patient->data->category,,
+,檢測項目,Test Item,,FALSE,patient->data->name,,
+,數值,Value,,FALSE,patient->data->value,,
+,參考值,Reference Value,,FALSE,patient->data->rv,,
+,單位,Unit,,FALSE,patient->data->unit,,
+,CBC/DC,CBC/DC,,FALSE,patient->data->categoryType->0,,
+,凝血,Coagulation,,FALSE,patient->data->categoryType->1,,
+,血型,Blood Type,,FALSE,patient->data->categoryType->2,,
+,Blood Gas - Arterial,Blood Gas - Arterial,,FALSE,patient->data->categoryType->3,,
+,Blood Gas - VeinGas,Blood Gas - Venous,,FALSE,patient->data->categoryType->4,,
+,生化檢驗,Biochemistry,,FALSE,patient->data->categoryType->5,,
+,電解質檢驗,Electrolyte,,FALSE,patient->data->categoryType->6,,
+,藥物檢驗,Drug Screening,,FALSE,patient->data->categoryType->7,,
+,尿液檢驗,Urinalysis,,FALSE,patient->data->categoryType->8,,
+,糞便檢驗,Stool Examination,,FALSE,patient->data->categoryType->9,,
+,細菌培養,Bacterial Culture,,FALSE,patient->data->categoryType->10,,
+,PCR檢驗,PCR Test,,FALSE,patient->data->categoryType->11,,
+,其他,Others,,FALSE,patient->others->title,,
+,口腔異物,Foreign Body in Oral Cavity,,FALSE,patient->others->ofb,,
+,脈搏設定,Pulse Settings,,FALSE,patient->others->pulse,,
+,即時資訊,Real-time Information,,FALSE,patient->others->instant,,
+,狀態,Status,,FALSE,patient->others->status,,
+,類別,Type,,FALSE,patient->others->type,,
+,部位,Body Parts,,FALSE,patient->others->parts,,
+,自定義描述,Custom Description,,FALSE,patient->others->description,,
+,即時音訊,Instant Audio,,FALSE,patient->others->message,,
+,檔案,File,,FALSE,patient->others->file,,
+,操作,Action,,FALSE,patient->others->action,,
+,預覽,Preview,,FALSE,patient->others->preview,,
+,即時圖片,Real-time Image,,FALSE,patient->others->image,,
+,無,No,,FALSE,patient->others->no,,
+,有,Yes,,FALSE,patient->others->yes,,
+,強,Strong,,FALSE,patient->others->strong,,
+,弱,Weak,,FALSE,patient->others->weak,,
+,頭,Head,,FALSE,patient->head,,
+,胸,Chest,,FALSE,patient->chest,,
+,腹,Abdomen,,FALSE,patient->abdomen,,
+,骨盆,Pelvis,,FALSE,patient->pelvis,,
+,下肢,Lower Limbs,,FALSE,patient->lowerLimbs,,
+,喉鏡,Laryngoscope,,FALSE,patient->laryngoscope,,
+,電話分機,Phone Extension,,FALSE,objects->phone->title,,
+,分機號碼,Extension Number,,FALSE,objects->phone->ext,,
+,將文件拖放到此處或,Drag and drop file here or,,FALSE,objects->phone->uploadDrag,,
+,點此上傳,Click here to upload,,FALSE,objects->phone->uploadClick,,
+,物件資料,Object Data,,FALSE,objects->items->title,,
+,新增物件,New Object,,FALSE,objects->items->btnNew,,
+,快速建立,Quick Create,,FALSE,objects->items->btnQuick,,
+,物件名稱,Object Name,,FALSE,objects->items->name,,
+,物件位置,Object Location,,FALSE,objects->items->location,,
+,數值變化,Change,,FALSE,objects->items->change,,
+,區間時間,During,,FALSE,objects->items->during,,
+,編輯物件,Update Items,,FALSE,objects->items->update,,
+,建立物件,Create Items,,FALSE,objects->items->create,,
+,BVM袋瓣罩甦醒球,BVM Mask,,FALSE,objects->items->data->1,,
+,止血帶,Tourniquet,,FALSE,objects->items->data->2,,
+,鼻咽呼吸道[NPA],Nasopharyngeal Airway (NPA),,FALSE,objects->items->data->3,,
+,口咽呼吸道[OPA],Oropharyngeal Airway (OPA),,FALSE,objects->items->data->4,,
+,托舌鉗,Tongue Depressor,,FALSE,objects->items->data->5,,
+,鼻導管,Nasal Cannula,,FALSE,objects->items->data->6,,
+,氧氣面罩,Oxygen Mask,,FALSE,objects->items->data->7,,
+,非再吸入型面罩,Non-Rebreather Mask,,FALSE,objects->items->data->8,,
+,氣管內管,Endotracheal Tube,,FALSE,objects->items->data->9,,
+,喉頭罩[LMA],Laryngeal Mask Airway (LMA),,FALSE,objects->items->data->10,,
+,喉頭罩[ivel],Laryngeal Mask Airway (iGel),,FALSE,objects->items->data->11,,
+,氣管切開術包,Tracheostomy Set,,FALSE,objects->items->data->12,,
+,胸管,Chest Tube,,FALSE,objects->items->data->13,,
+,18號針,18G Needle,,FALSE,objects->items->data->14,,
+,Pigtail+引流袋,Pigtail Catheter with Drainage Bag,,FALSE,objects->items->data->15,,
+,Icneedle,Intraosseous Needle,,FALSE,objects->items->data->16,,
+,骨針,Bone Needle,,FALSE,objects->items->data->17,,
+,CVC,Central Venous Catheter (CVC),,FALSE,objects->items->data->18,,
+,LARGEBORE,Large Bore Needle,,FALSE,objects->items->data->19,,
+,電擊器,Defibrillator,,FALSE,objects->items->data->20,,
+,呼吸機,Ventilator,,FALSE,objects->items->data->21,,
+,75﹪酒精溶液,75% Alcohol Solution,,FALSE,objects->items->data->22,,
+,10﹪酒精優碘溶液,10% Povidone-Iodine Solution,,FALSE,objects->items->data->23,,
+,2% CHG,2% Chlorhexidine Gluconate (CHG),,FALSE,objects->items->data->24,,
+,通條,Nasogastric Tube,,FALSE,objects->items->data->25,,
+,Air-way-口咽,Airway - Oropharynx,,FALSE,objects->items->data->26,,
+,Air-way-鼻咽,Airway - Nasopharynx,,FALSE,objects->items->data->27,,
+,咬口器,Bite Block,,FALSE,objects->items->data->28,,
+,張口器,Mouth Gag,,FALSE,objects->items->data->29,,
+,壓舌板,Tongue Depressor,,FALSE,objects->items->data->30,,
+,止血鉗,Hemostatic Forceps,,FALSE,objects->items->data->31,,
+,瞳孔尺,Pupil Gauge,,FALSE,objects->items->data->32,,
+,2% Xylocaine Jelly,2% Xylocaine Jelly,,FALSE,objects->items->data->33,,
+,頭皮針,Scalp Needle,,FALSE,objects->items->data->34,,
+,氧氣雙頭管,Oxygen Dual-Lumen Tube,,FALSE,objects->items->data->35,,
+,胸腔引流管,Thoracic Drainage Tube,,FALSE,objects->items->data->36,,
+,Suction tube,Suction Tube,,FALSE,objects->items->data->37,,
+,NG tube,Nasogastric Tube,,FALSE,objects->items->data->38,,
+,K-Y Jelly,K-Y Jelly,,FALSE,objects->items->data->39,,
+,灌食空針,Feeding Tube,,FALSE,objects->items->data->40,,
+,單一無菌引流袋,Single Sterile Drainage Bag,,FALSE,objects->items->data->41,,
+,鼻咽呼吸道,Nasopharyngeal Airway,,FALSE,objects->items->data->42,,
+,口咽呼吸道,Oropharyngeal Airway,,FALSE,objects->items->data->43,,
+,抽痰管,Sputum Catheter,,FALSE,objects->items->data->44,,
+,楊克式抽吸接頭,Yankauer Suction Tip,,FALSE,objects->items->data->45,,
+,插管內管,Endotracheal Tube Stylet,,FALSE,objects->items->data->46,,
+,環甲膜切開術,Cricothyroidotomy,,FALSE,objects->items->data->47,,
+,針刺環甲膜切開術,Needle Cricothyroidotomy,,FALSE,objects->items->data->48,,
+,氣管切開術,Tracheotomy Set,,FALSE,objects->items->data->49,,
+,NRM with O2,NRM with O2,,FALSE,objects->items->data->50,,
+,頸椎固定器,Cervical Collar,,FALSE,objects->items->data->51,,
+,骨盆固定器,Pelvic Binder,,FALSE,objects->items->data->52,,
+,剪刀,Scissors,,FALSE,objects->items->data->53,,
+,氣管內管 3,Endotracheal Tube 3,,FALSE,objects->items->data->54,,
+,喉頭罩[iGel],Laryngeal Mask Airway (iGel),,FALSE,objects->items->data->55,,
+,筆燈,Penlight,,FALSE,objects->items->data->56,,
+,棉棒,Cotton Swab,,FALSE,objects->items->data->57,,
+,生理監視器,Patient Monitor,,FALSE,objects->items->data->58,,
+,烤燈,Heat Lamp,,FALSE,objects->items->data->59,,
+,超音波,Ultrasound Machine,,FALSE,objects->items->data->60,,
+,各類靜脈輸液管,Various Intravenous Tubing,,FALSE,objects->items->data->61,,
+,一般set,General IV Set,,FALSE,objects->items->data->62,,
+,輸血set,Blood Transfusion Set,,FALSE,objects->items->data->63,,
+,精密輸液set,Precision Infusion Set,,FALSE,objects->items->data->64,,
+,NTG set,Nitroglycerin Set,,FALSE,objects->items->data->65,,
+,透氣膠帶,Breathable Tape,,FALSE,objects->items->data->66,,
+,14號靜脈留置針,14G Venous Catheter,,FALSE,objects->items->data->67,,
+,16號靜脈留置針,16G Venous Catheter,,FALSE,objects->items->data->68,,
+,18號靜脈留置針,18G Venous Catheter,,FALSE,objects->items->data->69,,
+,20號靜脈留置針,20G Venous Catheter,,FALSE,objects->items->data->70,,
+,22號靜脈留置針,22G Venous Catheter,,FALSE,objects->items->data->71,,
+,24號靜脈留置針,24G Venous Catheter,,FALSE,objects->items->data->72,,
+,OP Site,Op-Site Dressing,,FALSE,objects->items->data->73,,
+,1ml塑膠空針筒,1ml Disposable Plastic Syringe,,FALSE,objects->items->data->74,,
+,3ml塑膠空針筒,3ml Disposable Plastic Syringe,,FALSE,objects->items->data->75,,
+,5ml塑膠空針筒,5ml Disposable Plastic Syringe,,FALSE,objects->items->data->76,,
+,10ml塑膠空針筒,10ml Disposable Plastic Syringe,,FALSE,objects->items->data->77,,
+,20ml塑膠空針筒,20ml Disposable Plastic Syringe,,FALSE,objects->items->data->78,,
+,60ml塑膠空針筒,60ml Disposable Plastic Syringe,,FALSE,objects->items->data->79,,
+,胰島素空針,Insulin Syringe,,FALSE,objects->items->data->80,,
+,16號針頭,16G Needle,,FALSE,objects->items->data->81,,
+,18號針頭,18G Needle,,FALSE,objects->items->data->82,,
+,20號針頭,20G Needle,,FALSE,objects->items->data->83,,
+,22號針頭,22G Needle,,FALSE,objects->items->data->84,,
+,24號針頭,24G Needle,,FALSE,objects->items->data->85,,
+,喉頭鏡,Laryngoscope,,FALSE,objects->items->data->86,,
+,電池,Battery,,FALSE,objects->items->data->87,,
+,手術用外科手套,Surgical Gloves,,FALSE,objects->items->data->88,,
+,無菌治療巾,Sterile Dressing,,FALSE,objects->items->data->89,,
+,紅黃頭SST試管,Red/Yellow Top Serum Separator Tube (SST),,FALSE,objects->items->data->90,,
+,黃頭SST試管,Yellow Top Serum Separator Tube (SST),,FALSE,objects->items->data->91,,
+,紅頭尿液生化試管,Red Top Urine Biochemical Tube,,FALSE,objects->items->data->92,,
+,急生化塑膠試管(綠頭),Green Top Plastic Tube for Emergency Biochemistry,,FALSE,objects->items->data->93,,
+,紫頭試管(EDTA),Purple Top Tube (EDTA),,FALSE,objects->items->data->94,,
+,藍頭試管PT,Blue Top PT Tube,,FALSE,objects->items->data->95,,
+,灰頭試管(NaF),Gray Top Tube (NaF),,FALSE,objects->items->data->96,,
+,ACD試管,ACD Tube,,FALSE,objects->items->data->97,,
+,ABG專用空針,ABG Syringe,,FALSE,objects->items->data->98,,
+,血液培養,Blood Culture,,FALSE,objects->items->data->99,,
+,無切膠布,Transparent Adhesive Tape,,FALSE,objects->items->data->100,,
+,2吋紗布繃帶,2-inch Gauze Bandage,,FALSE,objects->items->data->101,,
+,真空採血器,Vacuum Blood Collection Tube,,FALSE,objects->items->data->102,,
+,採血針,Blood Collection Needle,,FALSE,objects->items->data->103,,
+,4*4紗布,4x4 Gauze,,FALSE,objects->items->data->104,,
+,塑膠袋,Plastic Bag,,FALSE,objects->items->data->105,,
+,鼻胃管,Nasogastric Tube,,FALSE,objects->items->data->106,,
+,清潔手套,Cleaning Gloves,,FALSE,objects->items->data->107,,
+,防水隔離衣,Waterproof Isolation Gown,,FALSE,objects->items->data->108,,
+,護目鏡或防護面罩,Goggles or Face Shield,,FALSE,objects->items->data->109,,
+,即棄式圓型手術帽,Disposable Round Surgical Cap,,FALSE,objects->items->data->110,,
+,影像式喉頭鏡,Video Laryngoscope,,FALSE,objects->items->data->112,,
+,環甲膜切開術包,Cricothyrotomy Set,,FALSE,objects->items->data->113,,
+,針刺環甲膜切開術包,Needle Cricothyrotomy Set,,FALSE,objects->items->data->114,,
+,導尿管,Foley Catheter,,FALSE,objects->items->data->115,,
+,輸血加溫器,Blood Warmer,,FALSE,objects->items->data->116,,
+,輸血加壓帶,Blood Infusion Pressure Cuff,,FALSE,objects->items->data->117,,
+,動脈導管,Arterial Catheter,,FALSE,objects->items->data->118,,
+,ETCO2,End-Tidal CO2 (ETCO2) Monitor,,FALSE,objects->items->data->119,,
+,噴霧器,Nebulizer,,FALSE,objects->items->data->120,,
+,氧氣延長管,Oxygen Extension Tubing,,FALSE,objects->items->data->121,,
+,生理鹽水,Normal Saline Solution,,FALSE,objects->items->data->122,,
+,急救車桌面,Ambulance Desktop,,FALSE,objects->items->locations->1,,
+,急救車第一層抽屜,Ambulance Drawer 1,,FALSE,objects->items->locations->2,,
+,急救車第二層抽屜,Ambulance Drawer 2,,FALSE,objects->items->locations->3,,
+,急救車第三層抽屜,Ambulance Drawer 3,,FALSE,objects->items->locations->4,,
+,急救車第四層抽屜,Ambulance Drawer 4,,FALSE,objects->items->locations->5,,
+,護理工作車,Nursing Cart,,FALSE,objects->items->locations->6,,
+,儀器設備區 (病房),Equipment Area (Ward),,FALSE,objects->items->locations->7,,
+,鐵櫃 (急診),Safe (Emergency department),,FALSE,objects->items->locations->8,,
+,儀器設備區 (門診),Equipment Area (Outpatient),,FALSE,objects->items->locations->9,,
+,藥物資料,Drug Data,,FALSE,objects->drugs->title,,
+,藥物名稱,Drug Name,,FALSE,objects->drugs->name,,
+,模型樣式,Model Style,,FALSE,objects->drugs->model,,
+,物件位置,Location,,FALSE,objects->drugs->location,,
+,上傳藥物圖檔,Upload Image,,FALSE,objects->drugs->upload,,
+,數值變化,Change,,FALSE,objects->drugs->change,,
+,區間時間,During,,FALSE,objects->drugs->during,,
+,編輯藥物,Edit Drug,,FALSE,objects->drugs->update,,
+,新增藥物,Create Drug,,FALSE,objects->drugs->create,,
+,藥錠,Tablet,,FALSE,objects->drugs->data->1,,
+,Vial瓶,Vial,,FALSE,objects->drugs->data->2,,
+,20ml藥瓶,20ml Bottle,,FALSE,objects->drugs->data->3,,
+,蒸汽吸入瓶,Steam Inhaler Bottle,,FALSE,objects->drugs->data->4,,
+,500ml 點滴包,500ml IV Bag,,FALSE,objects->drugs->data->5,,
+,1000ml 點滴包,1000ml IV Bag,,FALSE,objects->drugs->data->6,,
+,急救車桌面,Ambulance Desktop,,FALSE,objects->drugs->locations->1,,
+,急救車第一層抽屜,Ambulance Drawer 1,,FALSE,objects->drugs->locations->2,,
+,急救車第二層抽屜,Ambulance Drawer 2,,FALSE,objects->drugs->locations->3,,
+,急救車第三層抽屜,Ambulance Drawer 3,,FALSE,objects->drugs->locations->4,,
+,急救車第四層抽屜,Ambulance Drawer 4,,FALSE,objects->drugs->locations->5,,
+,護理工作車,Medical Cart,,FALSE,objects->drugs->locations->6,,
+,所屬合約商,contractor,,FALSE,profile->contractor,,
