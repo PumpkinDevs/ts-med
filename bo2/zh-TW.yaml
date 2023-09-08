@@ -1,0 +1,568 @@
+route:
+  home: 首頁
+  operate: 操作記錄
+  report: 數據報表
+  CMS: CMS
+  permission: 權限管理
+  account: 帳號管理
+  agency: 機構管理
+  training: 訓練列表
+  course: 課程管理
+  courseList: 課程列表
+  courseEdit: 編輯課程
+  coursePatient: 病患資料
+  courseObject: 物件資料
+  update: 更新資訊
+  profile: 帳戶資料
+  score: 成績單
+
+adminOptions: "管理模式"
+
+dashboard:
+  title: "發佈版本通知"
+  version: "版本號"
+  link: "下載連結"
+  note: "更新與修正"
+
+operate:
+  message: "訊息"
+  status: "狀態"
+  time: "時間"
+
+username: "使用者名稱"
+status: "狀態"
+message: "訊息"
+datetime: 時間
+action: "操作"
+upload: 上傳檔案
+download: 下載檔案
+forgetPassword: "忘記密碼"
+password: 密碼
+processing: "處理中..."
+empty: "尚未設定"
+
+form:
+  required: 必填欄位
+  file: 檔案必選
+  password: 請輸入密碼
+  email: "email不能為空"
+  validEmail: "請輸入正確的email"
+  role: "請選擇身份"
+
+permission:
+  name: "角色名稱"
+  description: "角色描述"
+  rules: "開放權限"
+  action: "操作"
+  newRole: "新增角色"
+  roleTitle:
+    accounts: "帳號管理"
+    scores: "評分管理"
+    roles: "權限管理"
+    teams: "機構管理"
+    history: "訓練列表"
+    course: "課程管理"
+    cms: "編輯CMS"
+
+buttons:
+  logOut: "退出系统"
+  login: "登入"
+  register: "註冊"
+  add: "新增"
+  mark: "標記/取消"
+  cancel: 取消
+  save: "儲存"
+  confirm: "確認"
+  delete: "刪除"
+  edit: 編輯
+  selectAll: 全選
+  unSelectAll: 全不選
+  newUser: "新增用戶"
+  update: "更新"
+  reLogin: "重新登入"
+
+cms:
+  editTitle: "編輯內容"
+  newTitle: "新增內容"
+  name: "商品名稱"
+  description: 商品簡介
+  type: 商品類型
+  file: 商品檔案
+  image: 預覽圖
+  emptyHint: "機構尚未開啟 CMS 使用, 請洽管理員"
+
+datePicker:
+  to: to
+  start: "開始日期"
+
+settings:
+  style: "頁面樣式設置"
+  color: "主題色"
+  fixedHeader: "固定標題"
+
+resetPassword:
+  title: 重設密碼
+  email: 電子郵件
+  description: "在下方輸入您的電子郵件，您將收到一封帶有密碼重設連結的郵件。"
+  success: "重設密碼的連結已發送至電子郵件（如果此郵件在我們的系統中存在）"
+  newPassword: "新密碼"
+  confirmPassword: "確認密碼"
+  resetOKHint: "密碼重設成功, 請使用新密碼登入."
+
+login:
+  tooltip: "大寫鎖定已開啟"
+
+register:
+  title: "註冊帳號"
+  message: "註冊成功後, 系統會發送密碼至您填寫的信箱中。"
+  agencyName: "機構名稱"
+  username: "姓名"
+  email: "Email"
+  sector: "單位名稱"
+  role: "身份"
+
+tooltip:
+  capsTooltip: "大寫鎖定已開啟"
+  fileMaxLimit: "檔案太大, 最大限制"
+  toPNG: "系統支援轉檔 png格式"
+  wavOnly: "只支持上傳.wav後綴的文件"
+  maxPhone: "最多10組電話"
+
+valid:
+  password: "請輸入密碼"
+  checkPassword: "兩次輸入密碼不同"
+
+messageBox:
+  resetPassword: "此密碼重設連結已過期, 請重新申請."
+  logout:
+    title: "確認登出"
+    message: "您已登出，您可以取消以留在此頁面，或重新登入"
+
+errorCode:
+  50000: "服務忙錄中, 請稍後再試."
+
+confirm:
+  remove: "即將刪除, 是否確認?"
+  status: "即將變更狀態, 是否確認?"
+
+apiSuccess: "操作成功"
+
+# 共同部分
+fileLimit: "檔案限制"
+preview: "預覽"
+
+account:
+  username: "用戶名稱"
+  email: "帳號/email"
+  sector: "部門"
+  role: "角色"
+  action: "操作"
+  newUser: "新增用戶"
+  editUser: "編輯用戶"
+  deleteUser: "刪除用戶"
+  agency_name: "機構名稱"
+
+agency:
+  name: "機構名稱"
+  status: "機構狀態"
+  register: "開放註冊"
+  action: "操作"
+  newUser: "新增用戶"
+  new: "新增機構"
+  username: "用戶名稱"
+  password: "密碼"
+  sector: "部門"
+  role: "角色"
+
+switch:
+  on: "開啟"
+  off: "關閉"
+
+profile:
+  title: "帳戶資料"
+  agency: "機構名稱"
+  sector: "單位名稱"
+  role: "角色"
+  username: "姓名"
+  newPassword: "新密碼"
+  confirmPassword: "確認密碼"
+
+  contractor: 所屬合約商
+course:
+  name: "課程名稱"
+  description: "說明"
+  creator: "建立者"
+  createdAt: "建立時間"
+  updatedAt: "修改時間"
+  action: "操作"
+  duplicate: "複製教案"
+  duplicateMessage: "確認是否要複製, 此操作會須等待一點時間"
+  type: "課程場景"
+  px: "病患背景"
+  nr: "護理紀錄"
+  type_1: "急診"
+  type_2: "門診"
+  type_3: "病房"
+  title:
+    basic: "基本資料"
+    patient: "病患資料"
+    object: "物件資料"
+
+  resolutionRequirements: "解析度要求"
+  fullPreview: "預覽全圖"
+  partName: "部位名稱"
+  parts: "部位"
+  status: "狀態命名"
+  file: "檔案"
+  preview: "預覽"
+
+parts:
+  part: "部位"
+  head: "頭"
+  chest: "胸"
+  abdomen: "腹"
+  pelvis: "骨盆"
+  lowerLimbs: "下肢"
+  laryngoscope: "喉鏡"
+  CompleteEKG: "CompleteEKG"
+  SONO_1: "Left Lung"
+  SONO_2: "Right Lung"
+  SONO_3: "LUQ"
+  SONO_4: "RUQ"
+  SONO_5: "Pelvis"
+  SONO_6: "Cardiac"
+  SONO_7: "Left Neck"
+  SONO_8: "Right Neck"
+
+patient:
+  sounds:
+    title: "聽診"
+    type:
+      heart: "心音"
+      lung: "肺音"
+      bowel: "腸胃音"
+      percussion: "扣診"
+  bodyImages:
+    title: "身體影像"
+  bodyType:
+    1: "頭部"
+    2: "上半身"
+    3: "下半身"
+    4: "背部"
+  palpation:
+    title: "觸診"
+    type:
+      chest: "胸口"
+      pelvis: "骨盆"
+      spine: "脊椎"
+      anal: "肛門"
+    reaction:
+      title: "反應設定"
+      type:
+        hand: "抓取病患手部時反應"
+        toe: "棉棒刺激腳趾時反應"
+        feet: "抓取病患腳部時反應"
+        solePlate: "棉棒刺激腳底板時反應"
+    edema:
+      title: "水腫設定"
+      type:
+        1: "左下肢"
+        2: "右下肢"
+        3: "全有"
+        4: "全無"
+  face:
+    title: "臉部"
+    eye:
+      name: "眼睛"
+      close: "全閉"
+      half: "半開"
+      open: "全開"
+    wink: "眨眼次數(1分鐘)"
+    sclera: "鞏膜顏色"
+    faceColor: "臉部顏色"
+    color:
+      white: "白色"
+      yellow: "黃色"
+      black: "黑色"
+      normal: "正常"
+    pupil:
+      title: "瞳孔設定"
+      light: "光反應"
+      reaction: "反應速度"
+      size: "瞳孔大小"
+      left: "左曈孔"
+      right: "右瞳孔"
+      no: "無"
+      yes: "有"
+      slow: "慢"
+      quick: "快"
+      normal: "正常"
+      needel: "針狀"
+      zoomIn: "放大"
+
+  physical:
+    title: "生理病徵"
+    settings: "初始設定"
+    name: "數值名稱"
+    value: "起始值"
+    target: "目標值/區間時間(s)"
+    heartbeat: "心跳"
+    SPO2: "SPO2"
+    SBP: "收縮壓"
+    DBP: "舒張壓"
+    BR: "呼吸速率"
+    BT: "體溫"
+    BO: "血氧"
+    waveform: "心律波形"
+    waveformType:
+      1: "正常"
+      2: "VF"
+      3: "VT"
+      4: "Asystole"
+      5: "Sinus Rhythm Post Ischemia"
+      6: "Sinus Rhythm with Ischemia"
+      7: "Sinus Rhythm"
+      8: "Sinus with Anterior AMI, ST elevation"
+      9: "Sinus with Inferior AMI, ST elevation"
+      10: "standstill"
+    NG:
+      title: "NG引流結果"
+      description: "NG引流管顏色及性狀"
+    urine:
+      title: "尿液"
+      description: "尿液引流管顏色及性狀"
+
+  image:
+    title: "影像資料"
+    type:
+      1: "XRAY"
+      2: "CT"
+      3: "SONO"
+      4: "喉鏡"
+      5: "CompleteEKG"
+  data:
+    title: "檢驗資料"
+    create: "新增檢驗資料"
+    update: "編輯檢驗資料"
+    remove: "刪除資料"
+    category: "檢驗類別"
+    name: "檢測項目"
+    value: "數值"
+    rv: "參考值"
+    unit: "單位"
+    categoryType:
+      0: "CBC/DC"
+      1: "凝血"
+      2: "血型"
+      3: "Blood Gas - Arterial"
+      4: "Blood Gas - VeinGas"
+      5: "生化檢驗"
+      6: "電解質檢驗"
+      7: "藥物檢驗"
+      8: "尿液檢驗"
+      9: "糞便檢驗"
+      10: "細菌培養"
+      11: "PCR檢驗"
+  others:
+    title: "其他"
+    ofb: "口腔異物"
+    pulse: "脈搏設定"
+    instant: "即時資訊"
+    status: "狀態"
+    type: "類別"
+    parts: "部位"
+    description: "自定義描述"
+    message: "即時音訊"
+    file: "檔案"
+    action: "操作"
+    preview: "預覽"
+    image: "即時圖片"
+    no: "無"
+    yes: "有"
+    strong: "強"
+    weak: "弱"
+
+  head: "頭"
+  chest: "胸"
+  abdomen: "腹"
+  pelvis: "骨盆"
+  lowerLimbs: "下肢"
+  laryngoscope: "喉鏡"
+
+objects:
+  phone:
+    title: "電話分機"
+    ext: "分機號碼"
+    uploadDrag: "將文件拖放到此處或"
+    uploadClick: "點此上傳"
+
+  items:
+    title: "物件資料"
+    btnNew: "新增物件"
+    btnQuick: "快速建立"
+
+    name: "物件名稱"
+    location: "物件位置"
+    change: "數值變化"
+    during: "區間時間"
+    update: "編輯物件"
+    create: "建立物件"
+    data:
+      1: "BVM袋瓣罩甦醒球"
+      2: "止血帶"
+      3: "鼻咽呼吸道[NPA]"
+      4: "口咽呼吸道[OPA]"
+      5: "托舌鉗"
+      6: "鼻導管"
+      7: "氧氣面罩"
+      8: "非再吸入型面罩"
+      9: "氣管內管"
+      10: "喉頭罩[LMA]"
+      11: "喉頭罩[ivel]"
+      12: "氣管切開術包"
+      13: "胸管"
+      14: "18號針"
+      15: "Pigtail+引流袋"
+      16: "Icneedle"
+      17: "骨針"
+      18: "CVC"
+      19: "LARGEBORE"
+      20: "電擊器"
+      21: "呼吸機"
+      22: "75﹪酒精溶液"
+      23: "10﹪酒精優碘溶液"
+      24: "2% CHG"
+      25: "通條"
+      26: "Air-way-口咽"
+      27: "Air-way-鼻咽"
+      28: "咬口器"
+      29: "張口器"
+      30: "壓舌板"
+      31: "止血鉗"
+      32: "瞳孔尺"
+      33: "2% Xylocaine Jelly"
+      34: "頭皮針"
+      35: "氧氣雙頭管"
+      36: "胸腔引流管"
+      37: "Suction tube"
+      38: "NG tube"
+      39: "K-Y Jelly"
+      40: "灌食空針"
+      41: "單一無菌引流袋"
+      42: "鼻咽呼吸道"
+      43: "口咽呼吸道"
+      44: "抽痰管"
+      45: "楊克式抽吸接頭"
+      46: "插管內管"
+      47: "環甲膜切開術"
+      48: "針刺環甲膜切開術"
+      49: "氣管切開術"
+      50: "NRM with O2"
+      51: "頸椎固定器"
+      52: "骨盆固定器"
+      53: "剪刀"
+      54: "氣管內管 3"
+      55: "喉頭罩[iGel]"
+      56: "筆燈"
+      57: "棉棒"
+      58: "生理監視器"
+      59: "烤燈"
+      60: "超音波"
+      61: "各類靜脈輸液管"
+      62: "一般set"
+      63: "輸血set"
+      64: "精密輸液set"
+      65: "NTG set"
+      66: "透氣膠帶"
+      67: "14號靜脈留置針"
+      68: "16號靜脈留置針"
+      69: "18號靜脈留置針"
+      70: "20號靜脈留置針"
+      71: "22號靜脈留置針"
+      72: "24號靜脈留置針"
+      73: "OP Site"
+      74: "1ml塑膠空針筒"
+      75: "3ml塑膠空針筒"
+      76: "5ml塑膠空針筒"
+      77: "10ml塑膠空針筒"
+      78: "20ml塑膠空針筒"
+      79: "60ml塑膠空針筒"
+      80: "胰島素空針"
+      81: "16號針頭"
+      82: "18號針頭"
+      83: "20號針頭"
+      84: "22號針頭"
+      85: "24號針頭"
+      86: "喉頭鏡"
+      87: "電池"
+      88: "手術用外科手套"
+      89: "無菌治療巾"
+      90: "紅黃頭SST試管"
+      91: "黃頭SST試管"
+      92: "紅頭尿液生化試管"
+      93: "急生化塑膠試管(綠頭)"
+      94: "紫頭試管(EDTA)"
+      95: "藍頭試管PT"
+      96: "灰頭試管(NaF)"
+      97: "ACD試管"
+      98: "ABG專用空針"
+      99: "血液培養"
+      100: "無切膠布"
+      101: "2吋紗布繃帶"
+      102: "真空採血器"
+      103: "採血針"
+      104: "4*4紗布"
+      105: "塑膠袋"
+      106: "鼻胃管"
+      107: "清潔手套"
+      108: "防水隔離衣"
+      109: "護目鏡或防護面罩"
+      110: "即棄式圓型手術帽"
+      112: "影像式喉頭鏡"
+      113: "環甲膜切開術包"
+      114: "針刺環甲膜切開術包"
+      115: "導尿管"
+      116: "輸血加溫器"
+      117: "輸血加壓帶"
+      118: "動脈導管"
+      119: "ETCO2"
+      120: "噴霧器"
+      121: "氧氣延長管"
+      122: "生理鹽水"
+    locations:
+      1: "急救車桌面"
+      2: "急救車第一層抽屜"
+      3: "急救車第二層抽屜"
+      4: "急救車第三層抽屜"
+      5: "急救車第四層抽屜"
+      6: "護理工作車"
+      7: "儀器設備區 (病房)"
+      8: "鐵櫃 (急診)"
+      9: "儀器設備區 (門診)"
+
+  drugs:
+    title: "藥物資料"
+
+    name: "藥物名稱"
+    model: "模型樣式"
+    location: "物件位置"
+    upload: "上傳藥物圖檔"
+    change: "數值變化"
+    during: "區間時間"
+    update: "編輯藥物"
+    create: "新增藥物"
+    data:
+      1: "藥錠"
+      2: "Vial瓶"
+      3: "20ml藥瓶"
+      4: "蒸汽吸入瓶"
+      5: "500ml 點滴包"
+      6: "1000ml 點滴包"
+    locations:
+      1: "急救車桌面"
+      2: "急救車第一層抽屜"
+      3: "急救車第二層抽屜"
+      4: "急救車第三層抽屜"
+      5: "急救車第四層抽屜"
+      6: "護理工作車"
+# 翻譯DONE HERE
