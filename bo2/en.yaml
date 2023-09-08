@@ -23,18 +23,18 @@ dashboard:
   note: Updates and Fixes
 operate:
   message: messages
-  status: Status
+  status: status
   time: time
 permission:
   name: Role Name
   description: Role Description
-  rules: Open permissions
-  action: Operational
-  newRole: Add Role
+  rules: Permissions
+  action: Action
+  newRole: New Role
   roleTitle:
-    accounts: User Manage
-    scores: Rating Management
-    roles: Permission Manage
+    accounts: Account Management
+    scores: Score Management
+    roles: Permission Management
     teams: Institutional Management
     history: Training List
     course: Course Management
@@ -223,11 +223,11 @@ objects:
       7: Equipment Area (Ward)
       8: Iron Cabinet (Emergency)
       9: Equipment Area (Outpatient)
-username: username
-status: Status
-message: messages
+username: Username
+status: status
+message: Message
 datetime: time
-action: Operational
+action: Action
 upload: Upload File
 download: Download File
 forgetPassword: Forgot Password
@@ -237,10 +237,10 @@ empty: Not set
 form:
   required: Required fields
   file: File Required
-  password: Please enter password
+  password: Please enter your password
   email: Email cannot be empty
   validEmail: Please enter the correct email
-  role: Please select your identity
+  role: Please select a role
 buttons:
   logOut: LOG OUT
   login: LOG IN
