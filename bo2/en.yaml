@@ -75,9 +75,9 @@ objects:
       3: First Aid Drawer
       4: Third Drawer
       5: First Aid Drawer
-      6: Care work car
+      6: Medical Cart
   phone:
-    title: Phone Phone
+    title: Phone Extension
     ext: The number of the computer
     uploadDrag: Drag and drop files here or
     uploadClick: Click here to upload
