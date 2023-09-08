@@ -1,1 +1,535 @@
-{}
+route:
+  training: Training List
+  course: Course Management
+  courseEdit: Editing a Course
+  coursePatient: Patient Information
+  courseObject: Object Data
+  update: Update Information
+  profile: ACCOUNT INFORMATION
+  score: transcripts
+  home: HOME
+  operate: Operation Log
+  report: Data Report
+  CMS: CMS
+  permission: Permission Manage
+  account: User Manage
+  agency: Institutional Management
+  courseList: Course List
+adminOptions: Management Mode
+dashboard:
+  title: Release notifications
+  version: Version
+  link: Download Link
+  note: Updates and Fixes
+operate:
+  message: messages
+  status: Status
+  time: time
+permission:
+  name: Role Name
+  description: Role Description
+  rules: Open permissions
+  action: Operational
+  newRole: Add Role
+  roleTitle:
+    accounts: User Manage
+    scores: Rating Management
+    roles: Permission Manage
+    teams: Institutional Management
+    history: Training List
+    course: Course Management
+    cms: Edit CMS
+datePicker:
+  to: to
+  start: Start Date
+tooltip:
+  maxPhone: Up to 10 phones
+  capsTooltip: Caps Lock is on
+  fileMaxLimit: File too large, maximum limit
+  toPNG: System supports converting png format
+  wavOnly: Only support uploading files with the.wav suffix
+switch:
+  on: opens
+  off: Close
+objects:
+  drugs:
+    data:
+      4: Steam Inhalation Bottle
+      1: Pills
+      2: Vial Bottle
+      3: 20ml Medicine Bottle
+      5: 500ml drip package
+      6: 1000ml drip pack
+    title: Drug Information
+    name: Name of the drug
+    model: Model Pattern
+    location: Object Location
+    upload: Upload Drug Image File
+    change: Numerical change
+    during: Intersection time
+    update: Edit Medication
+    create: Add Medication
+    locations:
+      1: First Aid Car Desktop
+      2: First Aid Drawer
+      3: First Aid Drawer
+      4: Third Drawer
+      5: First Aid Drawer
+      6: Care work car
+  phone:
+    title: Phone Phone
+    ext: The number of the computer
+    uploadDrag: Drag and drop files here or
+    uploadClick: Click here to upload
+  items:
+    title: Object Data
+    btnNew: Adding Objects
+    btnQuick: Quick Create
+    name: Object Name
+    location: Object Location
+    change: Numerical change
+    during: Intersection time
+    update: Edit Object
+    create: Creating Objects
+    data:
+      1: BVM Bag Flap Cover Awakening Ball
+      2: tourniquet
+      3: Nasopharyngeal Airway [NPA]
+      4: Oropharyngeal Respiratory [OPA]
+      5: Tongue Pliers
+      6: Nasal catheter
+      7: Oxygen Mask
+      8: Non-re-inhalation type face mask
+      9: Entracheous Tube
+      10: Laryngeal Head Mask [LMA]
+      11: Laryngeal mask [ivel]
+      12: tracheotomy package
+      13: Thoracic tube
+      14: No. 18 Needle
+      15: Pigtail+drainage bag
+      16: Icneedle
+      17: Bone Needles
+      18: CVC
+      19: LARGEBORE
+      20: Electric shock device
+      21: Ventilator
+      22: 75% alcohol solution
+      23: 10% alcohol iodine solution
+      24: 2% CHG
+      25: Pass Article
+      26: Air-way-oropharyngeal
+      27: Air-way-Nasopharyngeal
+      28: Mouthpiece
+      29: Mouth Tensioner
+      30: Tongue Presser
+      31: Hemostatic Forceps
+      32: Pupil ruler
+      33: 2% Xylocaine Jelly
+      34: Scalp needles
+      35: Oxygen Double Head Tube
+      36: Thoracic drainage tube
+      37: Suction tube
+      38: NG tube
+      39: K-Y Jelly
+      40: Filling the empty needle
+      41: Single sterile drainage bag
+      42: Nasopharyngeal respiratory tract
+      43: Oral and pharyngeal airways
+      44: Sputum Suction Tube
+      45: YK Suction Connector
+      46: Intubation inner tube
+      47: Cyctomy
+      48: Acupuncture Ring Myoctomy
+      49: tracheotomy
+      50: NRM with O2
+      51: Cervical fixator
+      52: Pelvic Fixator
+      53: shears
+      54: Entracheous tube 3
+      55: Laryngeal Mask [iGel]
+      56: Pen Light
+      57: Cotton swab
+      58: Physiological Monitor
+      59: Bake lamp
+      60: Ultrasound
+      61: Various types of intravenous infusion tubes
+      62: General set
+      63: Blood transfusion set
+      64: Precision infusion set
+      65: NTG set
+      66: Breathable tape
+      67: No. 14 intravenous leaved needle
+      68: Vein Lean Needle No. 16
+      69: No. 18 intravenous levein needle
+      70: Intravenous Lean Needle No. 20
+      71: Intravenous Lean Needle No. 22
+      72: Intravenous Lean Needle No. 24
+      73: OP Site
+      74: 1ml Plastic Empty Syringe
+      75: 3ml Plastic Empty Syringe
+      76: 5ml Plastic Empty Syringe
+      77: 10ml Plastic Empty Syringe
+      78: 20ml Plastic Empty Syringe
+      79: 60ml Plastic Empty Syringe
+      80: Insulin Empty Needles
+      81: No. 16 Needle
+      82: No. 18 needle
+      83: No. 20 needle
+      84: No. 22 Needle
+      85: No. 24 needle
+      86: Laryngeal
+      87: battery
+      88: Surgical Gloves
+      89: Sterile treatment towel
+      90: Red Yellow Head SST Test Tube
+      91: Yellow-headed SST Test Tubes
+      92: Red Head Urine Biochemical Test Tube
+      93: Emergency Biochemical Test Tube (Green Head)
+      94: Purple Head Test Tube (EDTA)
+      95: Blue Head Test Tube PT
+      96: Grey Head Test Tubes (NaF)
+      97: ACD Test Tubes
+      98: ABG dedicated empty needle
+      99: Blood culture
+      100: No cut tape
+      101: 2" Gauze Bandage
+      102: Vacuum Blood Sampler
+      103: Blood needles
+      104: 4*4 Gauze
+      105: Plastic Bags
+      106: Nasogastric tube
+      107: Cleaning Gloves
+      108: Waterproof isolation gown
+      109: Goggles or protective face shields
+      110: Disposable Round Surgical Cap
+      112: Image-type laryngeal lens
+      113: Cyclomotomy Pack
+      114: Acupuncture Ring Myoctomy Pack
+      115: catheters
+      116: Blood transfusion heater
+      117: Blood Transfusion Pressure Belt
+      118: Arterial catheter
+      119: ETCO2
+      120: sprayers
+      121: Oxygen extension tube
+      122: Saline
+    locations:
+      1: First Aid Car Desktop
+      2: First Aid Drawer
+      3: First Aid Drawer
+      4: Third Drawer
+      5: First Aid Drawer
+      6: Care work car
+      7: Equipment Area (Ward)
+      8: Iron Cabinet (Emergency)
+      9: Equipment Area (Outpatient)
+username: username
+status: Status
+message: messages
+datetime: time
+action: Operational
+upload: Upload File
+download: Download File
+forgetPassword: Forgot Password
+password: Password
+processing: Processing...
+empty: Not set
+form:
+  required: Required fields
+  file: File Required
+  password: Please enter password
+  email: Email cannot be empty
+  validEmail: Please enter the correct email
+  role: Please select your identity
+buttons:
+  logOut: LOG OUT
+  login: LOG IN
+  register: Register
+  add: ADD
+  mark: MARK/CANCEL
+  cancel: Cancel
+  save: SAVE
+  confirm: Confirm
+  delete: Delete
+  edit: Edit
+  selectAll: Select All
+  unSelectAll: Select none
+  newUser: Add new users
+  update: updating
+  reLogin: Log in again
+cms:
+  editTitle: Edit Content
+  newTitle: Add Content
+  name: Product Name
+  description: Product Introduction
+  type: Product Type
+  file: Product Profile
+  image: Preview image
+  emptyHint: The organization has not yet opened the CMS. Please contact your administrator
+settings:
+  style: Page Style Settings
+  color: Theme Color
+  fixedHeader: Fixed Header
+resetPassword:
+  title: Reset Password
+  email: emails
+  description: Enter your email below and you will receive an email with a password
+    reset link.
+  success: A link to reset your password has been sent to your email, if this email
+    exists in our system
+  newPassword: New Password
+  confirmPassword: Sure Password
+  resetOKHint: Password reset successfully, please use new password to login.
+login:
+  tooltip: Caps Lock is on
+register:
+  title: Sign up for an account
+  message: After the registration is successful, the system will send the password
+    to the mailbox you fill in.
+  agencyName: Name of Organisation
+  username: Name
+  email: Email
+  sector: Unit Name
+  role: Role
+valid:
+  password: Please enter password
+  checkPassword: Enter different password twice
+messageBox:
+  resetPassword: This password reset link has expired, please apply again.
+  logout:
+    title: Confirm Logout
+    message: You are logged out, you can cancel to stay on this page, or log back
+      in
+errorCode:
+  50000: Service is busy, please try again later.
+confirm:
+  remove: It will be deleted, confirm?
+  status: State is about to be changed, confirm?
+apiSuccess: Operation successful
+fileLimit: File limits
+preview: previews
+account:
+  username: User Name
+  email: Account/Email
+  sector: sectors
+  role: roles
+  action: Operational
+  newUser: Add new users
+  editUser: Edit User
+  deleteUser: Delete User
+  agency_name: Name of Organisation
+agency:
+  name: Name of Organisation
+  status: Institution Status
+  register: Open Registration
+  action: Operational
+  newUser: Add new users
+  new: Add Institution
+  username: User Name
+  password: Password
+  sector: sectors
+  role: roles
+profile:
+  title: ACCOUNT INFORMATION
+  agency: Name of Organisation
+  sector: Unit Name
+  role: roles
+  username: Name
+  newPassword: New Password
+  confirmPassword: Sure Password
+  contractor: Affiliated contract
+course:
+  name: Course Name
+  description: stating
+  creator: Created By
+  createdAt: Creation Time
+  updatedAt: Modification Time
+  action: Operational
+  duplicate: Copy lesson plans
+  duplicateMessage: Confirm that you want to copy, this operation will have to wait
+    some time
+  type: Course Scenes
+  px: Patient Background
+  nr: Nursing record
+  type_1: Emergency
+  type_2: Outpatient
+  type_3: wards
+  title:
+    basic: Basic Information
+    patient: Patient Information
+    object: Object Data
+  resolutionRequirements: Resolution Requirements
+  fullPreview: Preview Full Image
+  partName: Part Name
+  parts: Parts
+  status: State Naming
+  file: files
+  preview: previews
+parts:
+  part: Parts
+  head: pate
+  chest: bosom
+  abdomen: Abdomen
+  pelvis: pelvis
+  lowerLimbs: Lower limbs
+  laryngoscope: Laryngoscopy
+  CompleteEKG: CompleteeKG
+  SONO_1: Left Lung
+  SONO_2: Right Lung
+  SONO_3: LUQ
+  SONO_4: RUQ
+  SONO_5: Pelvis
+  SONO_6: Cardiac
+  SONO_7: Left Neck
+  SONO_8: Right Neck
+patient:
+  sounds:
+    title: stethoscope
+    type:
+      heart: Hearttone
+      lung: Pulmonary
+      bowel: Gastrointestinal
+      percussion: Deduction
+  bodyImages:
+    title: Body Image
+  bodyType:
+    1: Head
+    2: Upper body
+    3: Lower body
+    4: back
+  palpation:
+    title: palpation
+    type:
+      chest: Chest
+      pelvis: pelvis
+      spine: spines
+      anal: anus
+    reaction:
+      title: Reaction Settings
+      type:
+        hand: Reaction when grabbing the patient's hand
+        toe: Cotton swab stimulates toe response
+        feet: Reaction when grabbing the patient's foot
+        solePlate: Cotton swab stimulates reaction when soleplate
+    edema:
+      title: Edema Settings
+      type:
+        1: Left lower limb
+        2: Right lower limb
+        3: All with
+        4: All nothing
+  face:
+    title: Face
+    eye:
+      name: eyes
+      close: Fully closed
+      half: Half-open
+      open: Full open
+    wink: Blink (1 min)
+    sclera: Sclera Color
+    faceColor: Face Color
+    color:
+      white: white
+      yellow: yellows
+      black: blackness
+      normal: normalcy
+    pupil:
+      title: Pupil Settings
+      light: Light Reaction
+      reaction: Reaction speed
+      size: Pupil size
+      left: Left-hole
+      right: Right pupil
+      no: None
+      yes: having
+      slow: slow
+      quick: quick
+      normal: normalcy
+      needel: Needle
+      zoomIn: magnifying
+  physical:
+    title: Physiological symptoms
+    settings: Initial Settings
+    name: Numeric Name
+    value: Start Value
+    target: Target Value/Intersection Time (s)
+    heartbeat: heartbeats
+    SPO2: SPO2
+    SBP: systolic
+    DBP: Diastolic pressure
+    BR: Breathing Rate
+    BT: Body temperature
+    BO: Blood Oxygen
+    waveform: Heart rhythm waveform
+    waveformType:
+      1: normalcy
+      2: VF
+      3: VT
+      4: Asystole
+      5: Sinus Rhythm Post Ischemia
+      6: Sinus Rhythm with Ischemia
+      7: Sinus Rhythm
+      8: Sinus with Anterior AMI, ST elevation
+      9: Sinus with Inferior AMI, ST elevation
+      10: standstill
+    NG:
+      title: NG drainage results
+      description: NG drainage tube color and characteristics
+    urine:
+      title: urine
+      description: Urine drainage tube color and characteristics
+  image:
+    title: Image Data
+    type:
+      1: XRAY
+      2: CT
+      3: SONO
+      4: Laryngoscopy
+      5: CompleteeKG
+  data:
+    title: Inspection Data
+    create: Adding Inspection Data
+    update: Editing Inspection Data
+    remove: Delete Data
+    category: Inspection Category
+    name: Test Items
+    value: Numerical values
+    rv: Reference Value
+    unit: units
+    categoryType:
+      0: CBC/DC
+      1: clotting
+      2: Blood type
+      3: Blood Gas - Arterial
+      4: Blood Gas - VeingAs
+      5: Biochemical Inspection
+      6: Electrolyte Inspection
+      7: Drug Inspection
+      8: Urine test
+      9: Stool Inspection
+      10: Bacteria culture
+      11: PCR Inspection
+  others:
+    title: others
+    ofb: Oral foreign matter
+    pulse: Pulse Settings
+    instant: Real-Time Information
+    status: Status
+    type: classes
+    parts: Parts
+    description: Custom Description
+    message: Real-Time Audio
+    file: files
+    action: Operational
+    preview: previews
+    image: Instant Images
+    no: None
+    yes: having
+    strong: strong
+    weak: weak
+  head: pate
+  chest: bosom
+  abdomen: Abdomen
+  pelvis: pelvis
+  lowerLimbs: Lower limbs
+  laryngoscope: Laryngoscopy
