@@ -1,21 +1,21 @@
 route:
   training: Training List
   course: Course Management
-  courseEdit: Editing a Course
+  courseEdit: Edit Course
   coursePatient: Patient Information
   courseObject: Object Data
   update: Update Information
-  profile: ACCOUNT INFORMATION
+  profile: Account Profile
   score: transcripts
-  home: HOME
-  operate: Operation Log
+  home: Home
+  operate: Operation Records
   report: Data Report
   CMS: CMS
-  permission: Permission Manage
-  account: User Manage
-  agency: Institutional Management
+  permission: Permission Management
+  account: Account Management
+  agency: Institution Management
   courseList: Course List
-adminOptions: Management Mode
+adminOptions: Admin Mode
 dashboard:
   title: Release notifications
   version: Version
@@ -445,7 +445,7 @@ patient:
       slow: slow
       quick: quick
       normal: normalcy
-      needel: Needle
+      needel: Needle-shaped
       zoomIn: magnifying
   physical:
     title: Physiological symptoms
